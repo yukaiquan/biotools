@@ -8,11 +8,14 @@ Description: 01_longest_gene.py
 import re
 import sys
 
+
 def main():
     args = check_options(get_options())
     fasta_file = args.input
     print("Reading fasta file...")
     out_file = args.output
+    # 处理序列中的特殊字符串
+    p = re.compile(r'[-,$()#+&*]')
     # 原始序列哈希表
     sequence = {}
     with open(fasta_file, 'r') as f:
@@ -23,7 +26,9 @@ def main():
                 name = re.sub(" .*$", "", name)
                 sequence[name] = ''
             else:
-                sequence[name] += l
+                l = re.sub(p, '', l)
+                # 序列转大写
+                sequence[name] += l.upper()
     transcrip_length = {}
     # 获取每个转录本长度 并存入哈希表
     for name, seq in sequence.items():
@@ -49,6 +54,7 @@ def main():
                        for i in range(0, len(sequence[trans_name]), 60)]
             result = '\n'.join(result1)
             f.write(result + '\n')
+
 
 def get_options():
 
