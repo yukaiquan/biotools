@@ -3,23 +3,27 @@ Author: yukaiquan
 Date: 2022-07-26 16:31:15
 Email: 1962568272@qq.com
 LastEditor: yukaiquan
-Description: 01_longest_gene.py
+Description: python /mnt/e/software/Ex-seq/biotools/prot/01_longest_gene.py -i /mnt/d/databasezip/genome/ACD/Sang/gene_annotation_1/gene_annotation/ACD_sativa_sang_cds.fasta -o test.fa
 '''
 import re
+import os
 import sys
+import argparse
+from tqdm import tqdm
 
 
 def main():
     args = check_options(get_options())
     fasta_file = args.input
-    print("Reading fasta file...")
+    # fasta_file = r"D:\databasezip\genome\ACD\Sang\gene_annotation_1\gene_annotation\ACD_sativa_sang_cds.fasta"
     out_file = args.output
+    # out_file = "E:\\oatdatabase\\11_genefamily\\01_longest_pep\\test.fasta"
     # 处理序列中的特殊字符串
     p = re.compile(r'[-,$()#+&*]')
     # 原始序列哈希表
     sequence = {}
     with open(fasta_file, 'r') as f:
-        for line in f:
+        for line in tqdm(f, desc="Reading fasta file..."):
             l = line.strip()
             if l.startswith(">"):
                 name = l[1:]
@@ -37,17 +41,18 @@ def main():
     longest_transcrip = {}
     # 定义转录本名称的正则表达式 转录本名称的格式可以为 AVESA.00010b.r2.1AG0069130.RA AVESA.00010b.r2.1AG0069130.2 AVESA.00010b.r2.1AG0069130-RA AVESA.00010b.r2.1AG0069130-2
     pattarn = re.compile(r"^.*\d+(?=\.\w+$|\.\d+$|-\w+$|-\d+$)")
-    for name, length in transcrip_length.items():
+    for name, length in tqdm(transcrip_length.items(), desc="Finding longest transcript..."):
         gene_name = re.search(pattarn, name).group()
         if gene_name not in longest_transcrip:
             longest_transcrip[gene_name] = name
         else:
             if length > transcrip_length[name]:
+                print("Warning: %s is longer than %s" %
+                      (name, longest_transcrip[gene_name]))
                 longest_transcrip[gene_name] = name    # 更新最长转录本
     # 提取序列生成文件
-    print("write fasta file...")
     with open(out_file, 'w') as f:
-        for gene_name, trans_name in longest_transcrip.items():
+        for gene_name, trans_name in tqdm(longest_transcrip.items(), desc="Writing longest transcript to file..."):
             f.write('>' + gene_name + '\n')
             # 更改每行碱基的长度为60
             result1 = [sequence[trans_name][i:i + 60]
