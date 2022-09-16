@@ -49,11 +49,11 @@ if __name__ == '__main__':
     try:
         blastp_out: str = sys.argv[1]
         nr_id_function_filename: str = sys.argv[2]
-        identity: float = float(sys.argv[3])
-        align_len: float = float(sys.argv[4])
+        identity: float = float(sys.argv[3]) # 80
+        align_len: float = float(sys.argv[4]) # 100
         evalue: float = float(sys.argv[5])  # 1*10^-5
         out_put: str = sys.argv[6]
-        print('blastp_2_ncbi:'+ blastp_out + 'nr_id_function_filename:xp1928.1 function:'+ nr_id_function_filename+ 'identity:'  + identity +  'align_len:' + align_len + 'evalue:' + evalue + 'out_put:' + out_put)
+        print('blastp_2_ncbi:'+ blastp_out + 'nr_id_function_filename:xp1928.1 function:'+ nr_id_function_filename+ 'identity:'  + str(identity) +  'align_len:' + str(align_len) + 'evalue:' + str(evalue) + 'out_put:' + out_put)
         main(blastp_out, nr_id_function_filename,identity,align_len,evalue,out_put)
     except KeyboardInterrupt:
         print('Interrupted')

@@ -50,6 +50,10 @@ def main():
                 print("Warning: %s is longer than %s" %
                       (name, longest_transcrip[gene_name]))
                 longest_transcrip[gene_name] = name    # 更新最长转录本
+    if args.gene_2_transcript:
+        with open(args.gene_2_transcript, 'w') as f:
+            for gene, transcript in longest_transcrip.items():
+                f.write(gene + "\t" + transcript + "\n")
     # 提取序列生成文件
     with open(out_file, 'w') as f:
         for gene_name, trans_name in tqdm(longest_transcrip.items(), desc="Writing longest transcript to file..."):
@@ -62,7 +66,9 @@ def main():
 
 
 def get_options():
-
+    print('##############################################################')
+    print('# yukaiquan 1962568272@qq.com')
+    print('##############################################################')
     parser = argparse.ArgumentParser(
         description="Find longest transcript inded gene pep (sequence name splite with '.'). author: yukaiquan email: 1962568272@qq.com",
         prog='Ex_Longest_pep',
@@ -88,6 +94,13 @@ def get_options():
         help='The output files for saving results',
         required=True)
 
+    parser.add_argument(
+        '-g',
+        '--gene_2_transcript',
+        dest='gene_2_transcript',
+        help='longest transcript from where file(default: None)',
+        required=False)
+
     return parser
 
 
@@ -112,6 +125,11 @@ def check_options(parser):
         parser.print_help()
 
         sys.exit(1)
+    if args.gene_2_transcript:
+        if os.path.exists(args.gene_2_transcript):
+            print("Can not locate gene_2_transcript file, beacause it exists!\n")
+            parser.print_help()
+            sys.exit(1)
 
     return args
 
