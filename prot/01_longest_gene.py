@@ -19,7 +19,7 @@ def main():
     out_file = args.output
     # out_file = "E:\\oatdatabase\\11_genefamily\\01_longest_pep\\test.fasta"
     # 处理序列中的特殊字符串
-    p = re.compile(r'[-,$()#+&*]')
+    p = re.compile(r'[-,$()#+&*.]')
     # 原始序列哈希表
     sequence = {}
     with open(fasta_file, 'r') as f:
