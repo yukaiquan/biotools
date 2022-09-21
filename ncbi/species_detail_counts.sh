@@ -1,0 +1,10 @@
+sed -r 's#^.*(\[.*\]).*$#\1#g' ACD.SFS.pep.out.ann | sort -k1| awk -F '\t' '{x[$1]++;} END{for(i in x) print(x[i] "\t"  i)}' | sort -k1 -rn > ACD.SFS.pep.out.ann_detail.tsv
+sed -r 's#^.*(\[.*\]).*$#\1#g' OTv2.fasta.out.ann | sort -k1| awk -F '\t' '{x[$1]++;} END{for(i in x) print(x[i] "\t"  i)}' | sort -k1 -rn > OTv2.fasta.out.ann_detail.tsv
+sed -r 's#^.*(\[.*\]).*$#\1#g' SAU_ins.fasta.out.ann | sort -k1| awk -F '\t' '{x[$1]++;} END{for(i in x) print(x[i] "\t"  i)}' | sort -k1 -rn > SAU_ins.fasta.out.ann_detail.tsv
+sed -r 's#^.*(\[.*\]).*$#\1#g' SAU_lon.fasta.out.ann | sort -k1| awk -F '\t' '{x[$1]++;} END{for(i in x) print(x[i] "\t"  i)}' | sort -k1 -rn > SAU_lon.fasta.out.ann_detail.tsv
+sed -r 's#^.*(\[.*\]).*$#\1#g' Sang.fasta.out.ann | sort -k1| awk -F '\t' '{x[$1]++;} END{for(i in x) print(x[i] "\t"  i)}' | sort -k1 -rn > Sang.fasta.out.ann_detail.tsv
+sed -r 's#^.*(\[.*\]).*$#\1#g' Sang_ins.fasta.out.ann | sort -k1| awk -F '\t' '{x[$1]++;} END{for(i in x) print(x[i] "\t"  i)}' | sort -k1 -rn > Sang_ins.fasta.out.ann_detail.tsv
+sed -r 's#^.*(\[.*\]).*$#\1#g' Sang_lon.fasta.out.ann | sort -k1| awk -F '\t' '{x[$1]++;} END{for(i in x) print(x[i] "\t"  i)}' | sort -k1 -rn > Sang_lon.fasta.out.ann_detail.tsv
+sed -r 's#^.*(\[.*\]).*$#\1#g' atlantica.fasta.out.ann | sort -k1| awk -F '\t' '{x[$1]++;} END{for(i in x) print(x[i] "\t"  i)}' | sort -k1 -rn > atlantica.fasta.out.ann_detail.tsv
+sed -r 's#^.*(\[.*\]).*$#\1#g' eriantha.fasta.out.ann | sort -k1| awk -F '\t' '{x[$1]++;} END{for(i in x) print(x[i] "\t"  i)}' | sort -k1 -rn > eriantha.fasta.out.ann_detail.tsv
+sed -r 's#^.*(\[.*\]).*$#\1#g' strigosa.fasta.out.ann | sort -k1| awk -F '\t' '{x[$1]++;} END{for(i in x) print(x[i] "\t"  i)}' | sort -k1 -rn > strigosa.fasta.out.ann_detail.tsv

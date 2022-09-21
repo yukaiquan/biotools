@@ -40,7 +40,8 @@ def main():
     # 最长转录本哈希表
     longest_transcrip = {}
     # 定义转录本名称的正则表达式 转录本名称的格式可以为 AVESA.00010b.r2.1AG0069130.RA AVESA.00010b.r2.1AG0069130.2 AVESA.00010b.r2.1AG0069130-RA AVESA.00010b.r2.1AG0069130-2
-    pattarn = re.compile(r"^.*\d+(?=\.\w+$|\.\d+$|-\w+$|-\d+$)")
+    # 20220921 add AVESA.00010b.r2.1AG0069130LC.1
+    pattarn = re.compile(r"^.*\w+(?=\.\w+$|\.\d+$|-\w+$|-\d+$)")
     for name, length in tqdm(transcrip_length.items(), desc="Finding longest transcript..."):
         gene_name = re.search(pattarn, name).group()
         if gene_name not in longest_transcrip:
