@@ -1,0 +1,10 @@
+python kog_result_ex.py kog ACD.SFS.pep.fasta_kog_outfmt6.txt ACD.SFS.pep.fasta_kog_outfmt6.txt_result
+python kog_result_ex.py kog OTv2.fasta_kog_outfmt6.txt OTv2.fasta_kog_outfmt6.txt_result
+python kog_result_ex.py kog SAU_ins.fasta_kog_outfmt6.txt SAU_ins.fasta_kog_outfmt6.txt_result
+python kog_result_ex.py kog SAU_lon.fasta_kog_outfmt6.txt SAU_lon.fasta_kog_outfmt6.txt_result
+python kog_result_ex.py kog Sang.fasta_kog_outfmt6.txt Sang.fasta_kog_outfmt6.txt_result
+python kog_result_ex.py kog Sang_ins.fasta_kog_outfmt6.txt Sang_ins.fasta_kog_outfmt6.txt_result
+python kog_result_ex.py kog Sang_lon.fasta_kog_outfmt6.txt Sang_lon.fasta_kog_outfmt6.txt_result
+python kog_result_ex.py kog atlantica.fasta_kog_outfmt6.txt atlantica.fasta_kog_outfmt6.txt_result
+python kog_result_ex.py kog eriantha.fasta_kog_outfmt6.txt eriantha.fasta_kog_outfmt6.txt_result
+python kog_result_ex.py kog strigosa.fasta_kog_outfmt6.txt strigosa.fasta_kog_outfmt6.txt_result
