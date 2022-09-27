@@ -1,6 +1,7 @@
+import sys
 
-
-inputfile = 'ACD_sativa_pep.fasta'
+# inputfile = 'ACD_sativa_pep.fasta'
+inputfile = sys.argv[1]
 fa_dict = {}
 with open(inputfile, 'r') as f:
     for line in f:
