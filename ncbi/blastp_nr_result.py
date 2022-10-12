@@ -2,7 +2,7 @@
 yukaiquan 1962568272@qq.com
 2022-09-14
 A.satnudSFSUN01G001420	XP_047045654.1	68.9	315	55	7	54	334	5	310	1.8e-104	385.6
-identity 80 align_len 100 evalue 1e-5
+identity 60 align_len 100 evalue 1e-5
 '''
 from tqdm import tqdm  # progress bar
 import numpy as np
