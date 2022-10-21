@@ -100,7 +100,8 @@ def list_to_tsv(ko_map_list: list, output_file: str) -> bool:
                         r'(K\d{5})  (.*) (\[EC:.*\])', l[3]).group(3)
                 except AttributeError:
                     k_id = re.search(r'(K\d{5})  (.*)', l[3]).group(1)
-                    k_ann = re.search(r'(K\d{5})  (.*)', l[3]).group(2)
+                    k_ann = re.search(
+                        r'(K\d{5})  (.*)', l[3]).group(2).replace(k_id + ';', '').strip()
                     ec_id = ''
         output_tsv.write(
             f'{level1}\t{level2}\t{path}\t{path_ann}\t{k_id}\t{k_ann}\t{ec_id}\n')

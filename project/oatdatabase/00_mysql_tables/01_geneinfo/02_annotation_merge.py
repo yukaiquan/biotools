@@ -129,7 +129,7 @@ def main(inputgffile: str, genomeid: str, kog_input: str, kegg_input: str, nr_in
     with open(nr_input, 'r') as f:
         nr_list = f.readlines()
         for line in nr_list:
-            line_list = line.split("\t")
+            line_list = line.split(",")
             nr_dict[line_list[0]] = line_list[1]
 
     nr_arry = np.array([nr_dict.get(gene_id)

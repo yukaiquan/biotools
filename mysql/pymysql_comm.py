@@ -19,12 +19,13 @@ host = 'localhost'
 port = 3306
 db = 'annotation'
 user = 'root'
-password = 'Y1997k08q18'
+password = '123456'
 
 
 # ---- 用pymysql 操作数据库
 def get_connection():
-    conn = pymysql.connect(host=host, port=port, db=db, user=user, password=password)
+    conn = pymysql.connect(host=host, port=port, db=db,
+                           user=user, password=password)
     return conn
 
 
