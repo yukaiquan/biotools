@@ -52,7 +52,7 @@ PMSC_rpk = np.sum(RPK,axis=0)/1e6
 PMSC_rpk = PMSC_rpk.reshape(PMSC_rpk.shape[0],1)
 # 计算TPM
 TPM_matrix = RPK/PMSC_rpk
-TPM_matrix.tostr
+
 
 name_matrix = np.concatenate((count_index.reshape((count_index.shape[0], 1)), TPM_matrix), axis=1)
 name = np.loadtxt(count_input, delimiter=',', dtype=str)
