@@ -27,6 +27,7 @@ import pandas as pd
 import numpy as np
 from pandas.api.types import CategoricalDtype
 from tqdm import tqdm
+import sys
 
 # define the order of the categories
 cat_size_order = CategoricalDtype(
@@ -36,7 +37,9 @@ cat_size_order = CategoricalDtype(
 
 
 def main():
-    input_gff: str = "A_strigosa_nc_sorted.gff3"
+    # input_gff: str = "A_strigosa_nc_sorted.gff3"
+    input_gff: str = sys.argv[1]
+    output_gff: str = sys.argv[2]
     output_gff_list: list = []
     file_line: int = 0
     input_gff_df = pd.read_csv(
@@ -112,7 +115,7 @@ def main():
         else:
             print("Error: Unknown feature type")
         file_line += 1
-    with open("A_strigosa_nc_sorted_transcript.gff3", "w") as output_gff:
+    with open(output_gff, "w") as output_gff:
         for line in output_gff_list:
             line[3] = str(line[3])
             line[4] = str(line[4])

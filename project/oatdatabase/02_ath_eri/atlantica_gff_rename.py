@@ -40,9 +40,9 @@ cat_size_order = CategoricalDtype(
     ordered=True
 )
 input_file = sys.argv[1]
-# input_file = r'D:\databasezip\genome\A\eriantha\chrUn.gff3'
+# input_file = r'D:\databasezip\genome\A\eriantha\genome20221214\new.gff3.gz'
 output_file = sys.argv[2]
-# output_file = r'D:\databasezip\genome\A\eriantha\test.gff3'
+# output_file = r'D:\databasezip\genome\A\eriantha\genome20221214\test.gff3'
 
 gff_input = np.loadtxt(input_file,
                        dtype='str', delimiter='\t')
@@ -52,8 +52,8 @@ del gff_input
 # sort gff by type and chr and position
 gff_df[2] = gff_df[2].astype(cat_size_order)
 gff_df[3] = gff_df[3].astype(int)
-gff_df.sort_values(by=[0, 3, 4, 2], ascending=[
-    True, True, True, True], inplace=True)
+gff_df.sort_values(by=[0, 3, 2], ascending=[
+    True, True, True], inplace=True)
 gff_df.reset_index(drop=True, inplace=True)
 gff_df[3] = gff_df[3].astype(str)
 
@@ -65,16 +65,34 @@ cds_counts = {}
 # 提供哈希表因为有的基因存在跨基因的情况不能根据位置定义 exon 和 cds 的顺序
 mRNA_cds_id_dict = {}
 mRNA_exon_id_dict = {}
+# 准备一个基因dict 存储数据存在多个基因情况我们需要最长基因
+gene_dict = {}
+for line in gff_df.values:
+    if line[2] == 'gene':
+        if '-' in line[8].split('=')[1].replace(';', ''):  # 防止-RA -RB这种转录本编号乱入基因
+            line[8] = line[8].split('-')[0] + ';'
+            gene_id = line[8].split('=')[1].replace(';', '').split('-')[0]
+        else:
+            gene_id = line[8].split('=')[1].replace(';', '')
+        if gene_id not in gene_dict:
+            gene_dict[gene_id] = line
+        else:
+            if abs(int(line[4]) - int(line[3])) > abs(int(gene_dict[gene_id][4]) - int(gene_dict[gene_id][3])):
+                gene_dict[gene_id] = line
+            else:
+                print('gene_id', gene_id, 'is not the longest gene')
+    else:
+        continue
 
 for line in gff_df.values:
     # line[8] = line[8].strip(';')
     if line[2] == 'gene':
         # 防止-RA -RB这种多个转录本乱入基因
-        if '-' not in line[8]:
-            # gene_id = line[8].split('=')[1]
-            rename_list.append(line)
+        if line[8].split('=')[1].replace(';', '') in gene_dict:
+            rename_list.append(
+                gene_dict[line[8].split('=')[1].replace(';', '')])
         else:
-            print(line)
+            print(line[8], 'is not gene')
     elif line[2] == 'mRNA':
         mRNA_id = line[8].split(';')[0].split('=')[1]
         mRNA_cds_id_dict[mRNA_id] = 1
@@ -140,6 +158,24 @@ for line in rename_list:
             new_rename_list.append(line)
     else:
         new_rename_list.append(line)
-new_rename_list = np.array(new_rename_list)
-np.savetxt(output_file,
-           new_rename_list, fmt='%s', delimiter='\t')
+
+# 去除转录本中的-RA -RB
+for line in new_rename_list:
+    if line[2] == "mRNA":
+        if '-' in line[8].split(";")[1]:
+            line[8] = line[8].split(";")[0] + ";" + \
+                line[8].split(";")[1].split('-')[0] + ";"
+        else:
+            line[8] = line[8]
+# 再次进行排序
+gff_df = pd.DataFrame(new_rename_list)
+# sort gff by type and chr and position
+gff_df[2] = gff_df[2].astype(cat_size_order)
+gff_df[3] = gff_df[3].astype(int)
+gff_df.sort_values(by=[0, 3, 2], ascending=[
+    True, True, True], inplace=True)
+gff_df.reset_index(drop=True, inplace=True)
+gff_df[3] = gff_df[3].astype(str)
+
+# 写入文件
+gff_df.to_csv(output_file, sep='\t', header=False, index=False)

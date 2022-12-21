@@ -31,6 +31,7 @@ output_file = sys.argv[2]
 # output_file = "go_term.tsv"
 raw_file = open(input_file).read()
 
+go_alt = {}
 for go_term in raw_file.split("[Term]"):
     go_id = ''
     name = ''
@@ -44,9 +45,17 @@ for go_term in raw_file.split("[Term]"):
             name = line.rstrip().split(": ")[1]
         if str(line).startswith("namespace"):
             namespace = line.rstrip().split(" ")[1].strip()
-    term = go_id + '\t' + name + '\t' + namespace + '\n'
+        if str(line).startswith("alt_id"):
+            # 添加alt_id 它的值和go_id一样
+            alt_id = line.rstrip().split(" ")[1]
+            go_alt[alt_id] = go_id
+    term = go_id + '\t' + name + '\t' + namespace
     if '' != go_id:
         term_list.append(term)
+        for key in go_alt.keys():
+            if go_id == go_alt[key]:
+                term = key + '\t' + name + '\t' + namespace
+                term_list.append(term)
 
 term_df = pd.DataFrame(term_list)
 term_df = term_df[0].str.split('\t', expand=True)
@@ -63,5 +72,7 @@ term_df['namespace'] = term_df['namespace'].str.replace(
 created_time = pd.to_datetime('today').strftime('%Y-%m-%d %H:%M:%S')
 term_df['created_time'] = created_time
 term_df['updated_time'] = created_time
+# 根据go_id去排序
+term_df = term_df.sort_values(by='go_id')
 
 term_df.to_csv(output_file, index=False, header=True, sep='\t')
