@@ -68,16 +68,16 @@ def list_to_tsv(ko_map_list: list, output_file: str) -> bool:
             path = 'ko' + \
                 re.search(r'(\d+) ([\w\W ]+) (\[\w+:\w+\d+\])', l[2]).group(1)
         except AttributeError:
-            if '99980' in level3:
-                path = 'k099980'
+            if '999' in level3:
+                path = 'ko' + level3.split(' ')[0]
             elif '09113' in level3:
                 path = 'ko09113'
         try:
             path_ann = re.search(
                 r'(\d+) ([\w\W ]+) (\[\w+:\w+\d+\])', l[2]).group(2)
         except AttributeError:
-            if '99980' in level3:
-                path_ann = 'Enzymes with EC numbers'
+            if '999' in level3:
+                path_ann = ' '.join(level3.split(' ')[1:])
             elif '09113' in level3:
                 path_ann = 'Global maps only'
         if '' == l[3]:
@@ -111,6 +111,7 @@ def list_to_tsv(ko_map_list: list, output_file: str) -> bool:
 
 # test_re = 'K01810  GPI, pgi; glucose-6-phosphate isomerase [EC:5.3.1.9]'
 # test_re = 'K00246  frdC; succinate dehydrogenase subunit C'
+
 
 if __name__ == '__main__':
     try:
