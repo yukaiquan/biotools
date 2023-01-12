@@ -1,5 +1,9 @@
 #!/use/bin/env python3
-
+# -*- coding: utf-8 -*-
+# Author: yukaiquan
+# Email: 1962568272@qq.com
+# usage: python3 list_duplicate.py input_list output_file colums
+# colums is duplicate, split is tab
 import sys
 
 input_list: str = sys.argv[1]
