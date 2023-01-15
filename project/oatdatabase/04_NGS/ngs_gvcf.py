@@ -7,7 +7,7 @@ from subprocess import Popen, PIPE
 from concurrent.futures import ProcessPoolExecutor
 
 
-GATK = '/work/home/acfaa2ssz7/soft/gatk4.py'
+GATK = '/public/home/acfaa2ssz7/soft/gatk4.py'
 
 
 def mk_dir(dir) -> str:
@@ -167,15 +167,15 @@ def main():
     print('#'*25, 'samtools index done !', '#'*25)
     # bam to dup
     print('Create output directory', mk_dir(dup_out))
-    dup_theads = 4
+    dup_theads = 2
     parallel = cacu_threads(threads, dup_theads)
     with ProcessPoolExecutor(max_workers=parallel) as executor:
-        for i in range(len(bam_list)):
-            bam = bam_list[i]
+        for bam in bam_list:
             output_file = os.path.join(
                 dup_out, os.path.basename(bam) + '.dup.bam')
             dup_bam_list.append(output_file)
-            executor.submit(rm_dup, bam, output_file, dup_theads)
+            executor.submit(rm_dup, bam, output_file, output_file=os.path.join(
+                dup_out, os.path.basename(bam) + '.dup.metrics.txt'))
     print('#'*25, 'rm_dup done !', '#'*25)
     # 创建index
     index_threads = 1
@@ -186,6 +186,8 @@ def main():
     # dup to gvcf
     print('Create output directory', mk_dir(g_vcf))
     g_vcf_threads = 16
+    dup_bam_list = ['/public/home/acfaa2ssz7/YKQNGS/ogle/03_dup/0002.out.SRR15096497.bam.dup.bam', '/public/home/acfaa2ssz7/YKQNGS/ogle/03_dup/0003.out.SRR15096497.bam.dup.bam', '/public/home/acfaa2ssz7/YKQNGS/ogle/03_dup/0004.out.SRR15096497.bam.dup.bam', '/public/home/acfaa2ssz7/YKQNGS/ogle/03_dup/0005.out.SRR15096497.bam.dup.bam',
+                    '/public/home/acfaa2ssz7/YKQNGS/ogle/03_dup/0006.out.SRR15096497.bam.dup.bam', '/public/home/acfaa2ssz7/YKQNGS/ogle/03_dup/0007.out.SRR15096497.bam.dup.bam', '/public/home/acfaa2ssz7/YKQNGS/ogle/03_dup/0008.out.SRR15096497.bam.dup.bam', '/public/home/acfaa2ssz7/YKQNGS/ogle/03_dup/0009.out.SRR15096497.bam.dup.bam', '/public/home/acfaa2ssz7/YKQNGS/ogle/03_dup/0010.out.SRR15096497.bam.dup.bam']
     parallel = cacu_threads(threads, g_vcf_threads)
     with ProcessPoolExecutor(max_workers=parallel) as executor:
         for i in range(len(dup_bam_list)):
