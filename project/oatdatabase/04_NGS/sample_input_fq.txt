@@ -1,0 +1,5 @@
+ERR6323343_1.fastq.gz	ERR6323343_2.fastq.gz
+ERR6323344_1.fastq.gz	ERR6323344_2.fastq.gz
+ERR6323345_1.fastq.gz	ERR6323345_2.fastq.gz
+ERR6323346_1.fastq.gz	ERR6323346_2.fastq.gz
+ERR6323347_1.fastq.gz	ERR6323347_2.fastq.gz
