@@ -27,7 +27,7 @@ def main():
             l = line.strip()
             if l.startswith(">"):
                 name = l[1:]
-                name = re.sub(" .*$", "", name)
+                name = re.sub(r'[ \t].*$', "", name)
                 sequence[name] = ''
             else:
                 l = re.sub(p, '', l)
