@@ -4,12 +4,27 @@ import os
 from subprocess import Popen, PIPE
 import time
 from concurrent.futures import ProcessPoolExecutor
+import click
 
 
-R_base = '/work/home/acfaa2ssz7/miniconda3/envs/R/bin/Rscript'
-Feature_counts = '/work/home/acfaa2ssz7/soft/run-featurecounts.R'
-Merge_featurecounts = '/work/home/acfaa2ssz7/soft/abundance_estimates_to_matrix.pl'
-GATK = '/work/home/acfaa2ssz7/soft/gatk4.py'
+R_base = '/public/share/acfaa2ssz7/miniconda3/envs/R/bin/Rscript'
+Feature_counts = '/public/home/acfaa2ssz7/soft/RNAseqScript/run-featurecounts.R'
+Merge_featurecounts = '/public/home/acfaa2ssz7/soft/RNAseqScript/abundance_estimates_to_matrix.pl'
+GATK = '/public/home/acfaa2ssz7/soft/RNAseqScript/gatk4.py'
+
+# 判断上方文件是否存在
+if not os.path.exists(R_base):
+    print('Error: R_base not exist')
+    sys.exit(1)
+if not os.path.exists(Feature_counts):
+    print('Error: Feature_counts not exist')
+    sys.exit(1)
+if not os.path.exists(Merge_featurecounts):
+    print('Error: Merge_featurecounts not exist')
+    sys.exit(1)
+if not os.path.exists(GATK):
+    print('Error: GATK not exist')
+    sys.exit(1)
 
 
 def cacu_threads(threads: int, intheads: int) -> int:
@@ -185,22 +200,25 @@ def mk_sample_dict(sample_list: str) -> dict:
     return sample_dict
 
 
-def main():
+# 获取参数
+@click.command()
+@click.option('--sample_list', '-s', help='sample_list')
+@click.option('--ref_genome', '-r', help='ref_genome')
+@click.option('--star_index', '-i', help='star_index')
+@click.option('--gtf', '-g', help='gtf')
+@click.option('--threads', '-t', help='threads', default=16)
+@click.option('--gatk', '-k', help='gatk', default=False)
+def main(sample_list, ref_genome, star_index, gtf, threads, gatk):
     # outdir = '/home/yukaiquan/Ex-seq/data'
     start_time = time.time()
-    sample_list = sys.argv[1]
-    fastp_outdir = sys.argv[2]
-    star_outdir = sys.argv[3]
-    feature_outdir = sys.argv[4]
-    matrix_outdir = sys.argv[5]
-    add_outdir = sys.argv[6]
-    dup_bam_outdir = sys.argv[7]
-    gvcf_outdir = sys.argv[8]
-    vcf_outdir = sys.argv[9]
-    ref_genome = sys.argv[10]
-    star_index = sys.argv[11]
-    gtf = sys.argv[12]
-    threads = int(sys.argv[13])
+    fastp_outdir = '01_fastp'
+    star_outdir = '02_star'
+    feature_outdir = '03_featureCounts'
+    matrix_outdir = '04_matrix'
+    add_outdir = '05_add'
+    dup_bam_outdir = '06_dup_bam'
+    gvcf_outdir = '07_gvcf'
+    vcf_outdir = '08_vcf'
     # 创建输出目录
     if not os.path.exists(fastp_outdir):
         os.makedirs(fastp_outdir)
@@ -212,25 +230,27 @@ def main():
     with ProcessPoolExecutor(max_workers=parallel) as executor:
         for outname1, [fastq1, fastq2, NIL, _] in sample_dict.items():
             # print(outname1, fastq1, fastq2)
-            executor.submit(run_fastp, fastq1, fastq2, outname1,
-                            outname1, fastp_theads, fastp_outdir)
+            # executor.submit(run_fastp, fastq1, fastq2, outname1,
+            #                 outname1, fastp_theads, fastp_outdir)
             print(f'{outname1} fastp done!')
     print('#'*25, 'fastp done!', '#'*25)
     # 判断线程数计算并行数
-    fastq_theads = 8
-    parallel = cacu_threads(threads, fastq_theads)
-    with ProcessPoolExecutor(max_workers=parallel) as executor:
-        for outname1, [fastq1, fastq2, NIL, _] in sample_dict.items():
-            executor.submit(fastqc, f'{fastp_outdir}/out_{fastq1}',
-                            f'{fastp_outdir}/out_{fastq2}', fastp_outdir)
-    print('#'*25, 'fastqc done!', '#'*25)
+    # fastq_theads = 8
+    # parallel = cacu_threads(threads, fastq_theads)
+    # with ProcessPoolExecutor(max_workers=parallel) as executor:
+    #     for outname1, [fastq1, fastq2, NIL, _] in sample_dict.items():
+    #         executor.submit(fastqc, f'{fastp_outdir}/out_{fastq1}',
+    #                         f'{fastp_outdir}/out_{fastq2}', fastp_outdir)
+    # print('#'*25, 'fastqc done!', '#'*25)
     if not os.path.exists(star_outdir):
         os.makedirs(star_outdir)
+    # STAR在不满节点时,如果开并行,会导致内存不足,所以不开并行
     for outname1, [fastq1, fastq2, NIL, _] in sample_dict.items():
         if run_star(f'{star_index}', f'{fastp_outdir}/out_{fastq1}', f'{fastp_outdir}/out_{fastq2}', f'{NIL}', f'{star_outdir}' + '/' + f'{outname1}', f'{threads}') == 0:
             print(f'{outname1} STAR done!')
         else:
             print(f'{outname1} STAR error!')
+            sys.exit(1)
     print('#'*25, 'STAR done!', '#'*25)
     if not os.path.exists(feature_outdir):
         os.makedirs(feature_outdir)
@@ -273,99 +293,102 @@ def main():
         else:
             print('Error')
             sys.exit(1)
-    if not os.path.exists(add_outdir):
-        os.makedirs(add_outdir)
-    if not os.path.exists(dup_bam_outdir):
-        os.makedirs(dup_bam_outdir)
-    # 判断线程数计算并行数
-    dup_theads = 8
-    parallel = cacu_threads(threads, dup_theads)
-    with ProcessPoolExecutor(max_workers=parallel) as executor:
-        for outname1, [fastq1, fastq2, NIL, Phenotype] in sample_dict.items():
-            executor.submit(
-                gatk_add_header, f'{star_outdir}/{outname1}Aligned.sortedByCoord.out.bam', f'{NIL}{Phenotype}', f'{add_outdir}/{outname1}_header.bam')
-    # 判断线程数计算并行数
-    add_theads = 8
-    parallel = cacu_threads(threads, add_theads)
-    with ProcessPoolExecutor(max_workers=parallel) as executor:
-        for outname1, [fastq1, fastq2, NIL, Phenotype] in sample_dict.items():
-            executor.submit(
-                gatk_remove_duplicates, f'{add_outdir}/{outname1}_header.bam', f'{dup_bam_outdir}/{outname1}_dup_add.bam')
-    # 判断线程数计算并行数
-    samtools_theads = 2
-    parallel = cacu_threads(threads, samtools_theads)
-    # 创建文件夹
-    if not os.path.exists(gvcf_outdir):
-        os.makedirs(gvcf_outdir)
-    with ProcessPoolExecutor(max_workers=parallel) as executor:
-        for outname1, [fastq1, fastq2, NIL, Phenotype] in sample_dict.items():
-            if not os.path.exists(f'{dup_bam_outdir}/{outname1}_dup_add.bam.csi'):
+
+    if gatk:
+        #######################################call SNP############################################
+        if not os.path.exists(add_outdir):
+            os.makedirs(add_outdir)
+        if not os.path.exists(dup_bam_outdir):
+            os.makedirs(dup_bam_outdir)
+        # 判断线程数计算并行数
+        dup_theads = 8
+        parallel = cacu_threads(threads, dup_theads)
+        with ProcessPoolExecutor(max_workers=parallel) as executor:
+            for outname1, [fastq1, fastq2, NIL, Phenotype] in sample_dict.items():
                 executor.submit(
-                    samtools_index, f'{dup_bam_outdir}/{outname1}_dup_add.bam')
-            print(f'{outname1} gvcf to vcf Done !')
-    # gatk 需要21线程 且需要索引CSI 最好一次在一个节点调用一次需要提供超过21线程的计算资源
-    try:
+                    gatk_add_header, f'{star_outdir}/{outname1}Aligned.sortedByCoord.out.bam', f'{NIL}{Phenotype}', f'{add_outdir}/{outname1}_header.bam')
+        # 判断线程数计算并行数
+        add_theads = 8
+        parallel = cacu_threads(threads, add_theads)
+        with ProcessPoolExecutor(max_workers=parallel) as executor:
+            for outname1, [fastq1, fastq2, NIL, Phenotype] in sample_dict.items():
+                executor.submit(
+                    gatk_remove_duplicates, f'{add_outdir}/{outname1}_header.bam', f'{dup_bam_outdir}/{outname1}_dup_add.bam')
+        # 判断线程数计算并行数
+        samtools_theads = 2
+        parallel = cacu_threads(threads, samtools_theads)
+        # 创建文件夹
+        if not os.path.exists(gvcf_outdir):
+            os.makedirs(gvcf_outdir)
+        with ProcessPoolExecutor(max_workers=parallel) as executor:
+            for outname1, [fastq1, fastq2, NIL, Phenotype] in sample_dict.items():
+                if not os.path.exists(f'{dup_bam_outdir}/{outname1}_dup_add.bam.csi'):
+                    executor.submit(
+                        samtools_index, f'{dup_bam_outdir}/{outname1}_dup_add.bam')
+                print(f'{outname1} gvcf to vcf Done !')
+        # gatk 需要21线程 且需要索引CSI 最好一次在一个节点调用一次需要提供超过21线程的计算资源
+        try:
+            for outname1, [fastq1, fastq2, NIL, Phenotype] in sample_dict.items():
+                if not os.path.exists(f'{gvcf_outdir}/{outname1}.g.vcf.gz'):
+                    gatk4(f'{ref_genome}',
+                          f'{dup_bam_outdir}/{outname1}_dup_add.bam', f'{outname1}')
+        except Exception as e:
+            print(e)
+        # 移动文件 建立索引
         for outname1, [fastq1, fastq2, NIL, Phenotype] in sample_dict.items():
             if not os.path.exists(f'{gvcf_outdir}/{outname1}.g.vcf.gz'):
-                gatk4(f'{ref_genome}',
-                      f'{dup_bam_outdir}/{outname1}_dup_add.bam', f'{outname1}')
-    except Exception as e:
-        print(e)
-    # 移动文件 建立索引
-    for outname1, [fastq1, fastq2, NIL, Phenotype] in sample_dict.items():
-        if not os.path.exists(f'{gvcf_outdir}/{outname1}.g.vcf.gz'):
-            mv_file(f'{outname1}.*g.vcf.gz', f'{gvcf_outdir}/')
-        if not os.path.exists(f'{gvcf_outdir}/{outname1}.g.vcf.gz.tbi'):
-            g_vcf_index(f'{gvcf_outdir}/{outname1}.g.vcf.gz')
-    # 产生vcf文件存储位置
-    if not os.path.exists(vcf_outdir):
-        os.makedirs(vcf_outdir)
-    # 合并gvcf
-    gvcf_dict = {}
-    for outname1, [fastq1, fastq2, NIL, Phenotype] in sample_dict.items():
-        # 所有样品合并gvcfcall snp
-        # if 'All_samples' not in gvcf_dict:
-        #     gvcf_dict['All_samples'] = [
-        #         f'{gvcf_outdir}/{outname1}.g.vcf.gz']
-        # else:
-        #     gvcf_dict['All_samples'].append(
-        #         f'{gvcf_outdir}/{outname1}.g.vcf.gz')
-        if f'{NIL}{Phenotype}' not in gvcf_dict:
-            gvcf_dict[f'{NIL}{Phenotype}'] = [
-                f'{gvcf_outdir}/{outname1}.g.vcf.gz']
-        else:
-            gvcf_dict[f'{NIL}{Phenotype}'].append(
-                f'{gvcf_outdir}/{outname1}.g.vcf.gz')
-    # 对字典中列表进行去重 防止重复运行
-    gvcf_dict = {k: list(set(v)) for k, v in gvcf_dict.items()}
-    parallel = cacu_threads(threads, 4)
-    with ProcessPoolExecutor(max_workers=parallel) as executor:
-        for header, gvcf_list in gvcf_dict.items():
-            if not os.path.exists(f'{vcf_outdir}/{header}.g.vcf.gz'):
-                executor.submit(
-                    gvcf_merge, ref_genome, gvcf_list, f'{vcf_outdir}/{header}.g.vcf.gz')
-    # 计算并行数
-    parallel = cacu_threads(threads, 1)
-    with ProcessPoolExecutor(max_workers=parallel) as executor:
-        for header, gvcf_list in gvcf_dict.items():
-            if not os.path.exists(f'{vcf_outdir}/{header}.g.vcf.gz.tbi'):
-                executor.submit(
-                    g_vcf_index, f'{vcf_outdir}/{header}.g.vcf.gz')
-    # 计算并行数
-    parallel = cacu_threads(threads, 4)
-    with ProcessPoolExecutor(max_workers=parallel) as executor:
-        for header, gvcf_list in gvcf_dict.items():
-            if not os.path.exists(f'{vcf_outdir}/{header}.vcf.gz'):
-                executor.submit(
-                    geno_type_GVCFs, ref_genome, f'{vcf_outdir}/{header}.g.vcf.gz', f'{vcf_outdir}/{header}.vcf.gz')
-    # 计算并行数
-    parallel = cacu_threads(threads, 1)
-    with ProcessPoolExecutor(max_workers=parallel) as executor:
-        for header, gvcf_list in gvcf_dict.items():
-            if not os.path.exists(f'{vcf_outdir}/{header}.vcf.gz.tbi'):
-                executor.submit(
-                    g_vcf_index, f'{vcf_outdir}/{header}.vcf.gz')
-
+                mv_file(f'{outname1}.*g.vcf.gz', f'{gvcf_outdir}/')
+            if not os.path.exists(f'{gvcf_outdir}/{outname1}.g.vcf.gz.tbi'):
+                g_vcf_index(f'{gvcf_outdir}/{outname1}.g.vcf.gz')
+        # 产生vcf文件存储位置
+        if not os.path.exists(vcf_outdir):
+            os.makedirs(vcf_outdir)
+        # 合并gvcf
+        gvcf_dict = {}
+        for outname1, [fastq1, fastq2, NIL, Phenotype] in sample_dict.items():
+            # 所有样品合并gvcfcall snp
+            # if 'All_samples' not in gvcf_dict:
+            #     gvcf_dict['All_samples'] = [
+            #         f'{gvcf_outdir}/{outname1}.g.vcf.gz']
+            # else:
+            #     gvcf_dict['All_samples'].append(
+            #         f'{gvcf_outdir}/{outname1}.g.vcf.gz')
+            if f'{NIL}{Phenotype}' not in gvcf_dict:
+                gvcf_dict[f'{NIL}{Phenotype}'] = [
+                    f'{gvcf_outdir}/{outname1}.g.vcf.gz']
+            else:
+                gvcf_dict[f'{NIL}{Phenotype}'].append(
+                    f'{gvcf_outdir}/{outname1}.g.vcf.gz')
+        # 对字典中列表进行去重 防止重复运行
+        gvcf_dict = {k: list(set(v)) for k, v in gvcf_dict.items()}
+        parallel = cacu_threads(threads, 4)
+        with ProcessPoolExecutor(max_workers=parallel) as executor:
+            for header, gvcf_list in gvcf_dict.items():
+                if not os.path.exists(f'{vcf_outdir}/{header}.g.vcf.gz'):
+                    executor.submit(
+                        gvcf_merge, ref_genome, gvcf_list, f'{vcf_outdir}/{header}.g.vcf.gz')
+        # 计算并行数
+        parallel = cacu_threads(threads, 1)
+        with ProcessPoolExecutor(max_workers=parallel) as executor:
+            for header, gvcf_list in gvcf_dict.items():
+                if not os.path.exists(f'{vcf_outdir}/{header}.g.vcf.gz.tbi'):
+                    executor.submit(
+                        g_vcf_index, f'{vcf_outdir}/{header}.g.vcf.gz')
+        # 计算并行数
+        parallel = cacu_threads(threads, 4)
+        with ProcessPoolExecutor(max_workers=parallel) as executor:
+            for header, gvcf_list in gvcf_dict.items():
+                if not os.path.exists(f'{vcf_outdir}/{header}.vcf.gz'):
+                    executor.submit(
+                        geno_type_GVCFs, ref_genome, f'{vcf_outdir}/{header}.g.vcf.gz', f'{vcf_outdir}/{header}.vcf.gz')
+        # 计算并行数
+        parallel = cacu_threads(threads, 1)
+        with ProcessPoolExecutor(max_workers=parallel) as executor:
+            for header, gvcf_list in gvcf_dict.items():
+                if not os.path.exists(f'{vcf_outdir}/{header}.vcf.gz.tbi'):
+                    executor.submit(
+                        g_vcf_index, f'{vcf_outdir}/{header}.vcf.gz')
+    ###########################################################
     print('All Done !')
     end_time = time.time()
     print('RNAseq Time used: %s minute' % (end_time - start_time / 60))
