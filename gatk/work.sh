@@ -1,0 +1,1 @@
+python gatk_gvcf_merge.py --ref /mnt/disk3/new_genome/ACD/01_SFS/ACD.sativa.fasta --gvcf vcf_list.list -o gwas1892022 -t 16

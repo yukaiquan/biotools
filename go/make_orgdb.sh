@@ -1,0 +1,10 @@
+#Rscript make_orgdb.R -g 01_genelist/sanfensan.tsv --gene2go avena_gene2goid.txt --gene2kegg avena_all_kegg_path.txt -t 4498 --genus avena -s sanfensan && R CMD build org.Asanfensan.eg.db
+Rscript make_orgdb.R -g 01_genelist/sacu_ins_cn108634.tsv --gene2go avena_gene2goid.txt --gene2kegg avena_all_kegg_path.txt -t 4498 --genus avena -s scauinscn108634 && R CMD build org.Ascauinscn108634.eg.db
+Rscript make_orgdb.R -g 01_genelist/sacu_lon_cn58139.tsv --gene2go avena_gene2goid.txt --gene2kegg avena_all_kegg_path.txt -t 4498 --genus avena -s scauloncn58139 && R CMD build org.Ascauloncn58139.eg.db
+Rscript make_orgdb.R -g 01_genelist/sang_lon_cn58138.tsv --gene2go avena_gene2goid.txt --gene2kegg avena_all_kegg_path.txt -t 4498 --genus avena -s sangloncn58138 && R CMD build org.Asangloncn58138.eg.db
+Rscript make_orgdb.R -g 01_genelist/nc_strigosa.tsv --gene2go avena_gene2goid.txt --gene2kegg avena_all_kegg_path.txt -t 4498 --genus avena -s ncstrigosa && R CMD build org.Ancstrigosa.eg.db
+Rscript make_orgdb.R -g 01_genelist/bmc_atlantica.tsv --gene2go avena_gene2goid.txt --gene2kegg avena_all_kegg_path.txt -t 4498 --genus avena -s bmcatlantica && R CMD build org.Abmcatlantica.eg.db
+Rscript make_orgdb.R -g 01_genelist/otv2.tsv --gene2go avena_gene2goid.txt --gene2kegg avena_all_kegg_path.txt -t 4498 --genus avena -s ot3098v2 && R CMD build org.Aot3098v2.eg.db
+Rscript make_orgdb.R -g 01_genelist/sang.tsv --gene2go avena_gene2goid.txt --gene2kegg avena_all_kegg_path.txt -t 4498 --genus avena -s sang && R CMD build org.Asang.eg.db
+Rscript make_orgdb.R -g 01_genelist/bmc_eriantha.tsv --gene2go avena_gene2goid.txt --gene2kegg avena_all_kegg_path.txt -t 4498 --genus avena -s bmceriantha && R CMD build org.Abmceriantha.eg.db
+Rscript make_orgdb.R -g 01_genelist/sang_insularis.tsv --gene2go avena_gene2goid.txt --gene2kegg avena_all_kegg_path.txt -t 4498 --genus avena -s sangins && R CMD build org.Asangins.eg.db
