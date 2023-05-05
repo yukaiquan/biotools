@@ -1,0 +1,3 @@
+[submodule "fasta/fasta_find_n"]
+	path = fasta/fasta_find_n
+	url = https://github.com/yukaiquan/fasta_find_n.git
