@@ -25,7 +25,6 @@ window_size = int(sys.argv[3])
 output_file = sys.argv[4]
 threads = int(sys.argv[5])
 # output_png = sys.argv[5]
-
 # pos_dict = {1000000: 0.3, 2000000: 0.5, 2300000: 0.3, 2400000: 0.3, 2600000: 0.3,
 #             3000000: 0.3, 4000000: 0.2}
 

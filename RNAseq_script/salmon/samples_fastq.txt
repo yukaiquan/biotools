@@ -1,0 +1,12 @@
+SRR22937062_1.fastq.gz	SRR22937062_2.fastq.gz	by01_1
+SRR22937061_1.fastq.gz	SRR22937061_2.fastq.gz	by01_2
+SRR22937058_1.fastq.gz	SRR22937058_2.fastq.gz	by01_3
+SRR22937057_1.fastq.gz	SRR22937057_2.fastq.gz	by02_1
+SRR22937056_1.fastq.gz	SRR22937056_2.fastq.gz	by02_2
+SRR22937055_1.fastq.gz	SRR22937055_2.fastq.gz	by02_3
+SRR22937054_1.fastq.gz	SRR22937054_2.fastq.gz	yzy01_1
+SRR22937053_1.fastq.gz	SRR22937053_2.fastq.gz	yzy01_2
+SRR22937052_1.fastq.gz	SRR22937052_2.fastq.gz	yzy01_3
+SRR22937051_1.fastq.gz	SRR22937051_2.fastq.gz	yzy02_1
+SRR22937060_1.fastq.gz	SRR22937060_2.fastq.gz	yzy02_2
+SRR22937059_1.fastq.gz	SRR22937059_2.fastq.gz	yzy02_3

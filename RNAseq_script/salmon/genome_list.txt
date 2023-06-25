@@ -1,0 +1,3 @@
+/public/home/acfaa2ssz7/genome/sfs/salmon/ACD_sativa_sfs_cds.fasta.index	/public/home/acfaa2ssz7/genome/sfs/ACD_sativa_sfs.gff	sfs
+/public/home/acfaa2ssz7/genome/sang/salmon/ACD_sativa_sang_cds.fasta.index	/public/home/acfaa2ssz7/genome/sang/ACD_sativa_sang_sorted.gff3	sang
+/public/home/acfaa2ssz7/genome/OT3098v2/salmon/ACD_sativa_OT3098v2_cds.fasta.index	/public/home/acfaa2ssz7/genome/OT3098v2/ACD_sativa_OT3098v2_sorted.gff3	otv2
