@@ -37,15 +37,21 @@ def main():
             line = line.strip().split('\t')
             print(line)
             chr_len_dict[line[0]] = int(line[1])
-    output = open(output_file, 'w')
+    output_list = []
     # 高效迭代字典
     with ProcessPoolExecutor(max_workers=threads) as executor:
         for chr, value in chr_len_dict.items():
-            executor.submit(process_chr, chr, value, output)
+            # process_chr(chr, value)
+            # output_list.extend(process_chr(chr, value))
+            output_list.extend(executor.submit(
+                process_chr, chr, value).result())
+    output = open(output_file, 'w')
+    output.write(''.join(output_list))
     output.close()
 
 
-def process_chr(chr, value, output):
+def process_chr(chr, value) -> list:
+    output_list = []
     print('#'*25 + chr + '#'*25)
     pos_dict = {}
     with open(input_file, 'r') as f:
@@ -72,11 +78,13 @@ def process_chr(chr, value, output):
     for key, value in tqdm.tqdm(chr_dict.items(), desc='生成数据'):
         key = key.split('-')
         pos = int(key[0])+(int(key[1]) - int(key[0]))/2
-        output.write(chr + '\t' + str(int(pos)) + '\t' + str(value) + '\n')
+        # output.write(chr + '\t' + str(int(pos)) + '\t' + str(value) + '\n')
+        output_list.append(chr + '\t' + str(int(pos)) +
+                           '\t' + str(value) + '\n')
+    return output_list
+
 
 # 利用numpy生成区间列表
-
-
 def generate_interval_list(genome_chr_len, window_size) -> list:
     # interval_list = np.arange(0, genome_chr_len + 1, window_size)
     # 最后一个区间的长度可能不足1Mb，所以需要单独处理
@@ -85,9 +93,8 @@ def generate_interval_list(genome_chr_len, window_size) -> list:
     interval_list = interval_list.astype(str)
     return interval_list
 
+
 # 根据区间列表生成区间字典
-
-
 def generate_interval_dict(interval_list) -> dict:
     interval_dict = {}
     for i in range(len(interval_list) - 1):
