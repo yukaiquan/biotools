@@ -13,6 +13,8 @@ SALMON_OUT_DIR = '02_salmon'
 MATRIX_OUT_DIR = '03_matrix'
 KALLISTO = '/public/home/acfaa2ssz7/soft/kallisto2matrix'
 
+RUN_PATH = os.getcwd()
+
 
 # 写出样本对应名称为matrix做准备
 def writer_samples(samples: dict, genome_index: dict, tag: str) -> dict:
@@ -81,16 +83,19 @@ def run_cmd(cmd: str) -> None:
 
 
 # fastp
-def fastp(fastq_1: str, fastq_2: str, threads: int) -> list:
+def fastp(fastq_1: str, fastq_2: str, threads: int, type: int) -> list:
     cmd = 'fastp -i ' + fastq_1 + ' -I ' + fastq_2 + ' -o ' + FASTP_OUT_DIR + '/' + fastq_1.split('/')[-1].split('.')[0] + '_clean.fastq.gz -O ' + FASTP_OUT_DIR + '/' + fastq_2.split('/')[-1].split(
         '.')[0] + '_clean.fastq.gz -h ' + FASTP_OUT_DIR + '/' + fastq_1.split('/')[-1].split('.')[0] + '.html -j ' + FASTP_OUT_DIR + '/' + fastq_1.split('/')[-1].split('.')[0] + '.json' + ' -w ' + str(threads)
     print(cmd)
-    output = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE)
-    stdout, stderr = output.communicate()
-    if output.returncode != 0:
-        print(stderr)
-        sys.exit(1)
-    output.wait()
+    if type == 1:
+        output = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE)
+        stdout, stderr = output.communicate()
+        if output.returncode != 0:
+            print(stderr)
+            sys.exit(1)
+        output.wait()
+    else:
+        pass
     return [FASTP_OUT_DIR + '/' + fastq_1.split('/')[-1].split('.')[0] + '_clean.fastq.gz', FASTP_OUT_DIR + '/' + fastq_2.split('/')[-1].split('.')[0] + '_clean.fastq.gz']
 
 # salmon
@@ -98,10 +103,14 @@ def fastp(fastq_1: str, fastq_2: str, threads: int) -> list:
 
 def salmon(genome_index: str, genome_gff: str, fastq_1: str, fastq_2: str, threads: int, tag: str) -> list:
     output_dir = SALMON_OUT_DIR + '/' + \
-        fastq_1.split('/')[-1].split('.')[0].split('_')[0] + '_' + tag
+        '_'.join(fastq_1.split('/')[-1].split('.')
+                 [0].split('_')[:-1]) + '_' + tag
+    if os.path.exists(output_dir + '/quant.sf') or os.path.exists(output_dir + '/quant.genes.sf'):
+        print('salmon result exists: ' + output_dir + '/quant.sf')
+        return ['NA', output_dir + '/quant.genes.sf', output_dir + '/quant.sf']
     cmd = 'salmon quant -i ' + genome_index + ' -g ' + genome_gff + ' --gcBias -l A --numBootstraps 100 -1 ' + fastq_1 + ' -2 ' + fastq_2 + \
         ' -p ' + str(threads) + ' -o ' + output_dir
-    return [cmd, output_dir + '/quant.sf', output_dir + '/quant.genes.sf']
+    return [cmd, output_dir + '/quant.genes.sf', output_dir + '/quant.sf']
 
 # 合并salmon结果
 # kallisto2matrix -i sfs_samples.csv -o sfs_tx -t salmon
@@ -187,8 +196,18 @@ with ProcessPoolExecutor(max_workers=fastp_parallel) as executor:
     for key, value in fastq_file_dict.items():
         fastq_1 = value.split()[0]
         fastq_2 = value.split()[1]
-        fastp_out_dict[key] = executor.submit(
-            fastp, fastq_1, fastq_2, fastp_threads)
+        output_html = FASTP_OUT_DIR + '/' + \
+            fastq_1.split('/')[-1].split('.')[0] + '.html'
+        if os.path.exists(output_html):
+            print('Warning: ' + output_html + ' exists')
+            # fastp_out_dict[key] = [FASTP_OUT_DIR + '/' + fastq_1.split('/')[-1].split(
+            #     '.')[0] + '_clean.fastq.gz', FASTP_OUT_DIR + '/' + fastq_2.split('/')[-1].split('.')[0] + '_clean.fastq.gz']
+            fastp_out_dict[key] = executor.submit(
+                fastp, fastq_1, fastq_2, fastp_threads, 0)
+            continue
+        else:
+            fastp_out_dict[key] = executor.submit(
+                fastp, fastq_1, fastq_2, fastp_threads, 1)
 
 # 运行salmon
 salmon_threads: int = 16
@@ -215,7 +234,10 @@ for key, value in genome_index.items():
 salmon_parallel: int = cacu_threads(threads, salmon_threads)
 with ProcessPoolExecutor(max_workers=salmon_parallel) as executor:
     for cmd in salmon_cmd_list:
-        executor.submit(run_cmd, cmd)
+        if cmd == 'NA':
+            continue
+        else:
+            executor.submit(run_cmd, cmd)
 
 # 检查文件夹是否存在，不存在则创建
 check_dir(MATRIX_OUT_DIR)
