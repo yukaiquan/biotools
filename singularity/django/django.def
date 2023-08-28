@@ -1,0 +1,42 @@
+Bootstrap: docker
+From: centos 7
+
+%post
+        # install other needed packages
+        yum clean all
+        yum -y update
+        # 
+        # install miniconda
+        
+ 
+#%environment
+#       export PATH="${PATH}:/opt/hal/bin"
+
+%files
+        # Clone AUGUSTUS repository
+        . /opt/augustus
+
+%post
+        # Build AUGUSTUS
+        cd /opt/augustus
+        make clean
+        make
+        make install INSTALLDIR=/opt/augustus
+
+%environment
+        export LC_ALL=C
+        export PATH="/opt/augustus/bin:/opt/augustus/scripts:${PATH}"
+
+%test
+        # Test AUGUSTUS
+        cd /opt/augustus
+        make unit_test
+
+%help
+Create a Singularity Image File from this Singularity Definition File using
+        $ git clone https://github.com/Gaius-Augustus/Augustus.git
+        $ cd Augustus
+        $ singularity build augustus.sif Singularity.def
+
+Running an example (from the Augustus directory) with Singularity:
+        $ singularity exec augustus.sif augustus --species=human --UTR=on examples/example.fa
