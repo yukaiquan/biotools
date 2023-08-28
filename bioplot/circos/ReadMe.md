@@ -53,3 +53,7 @@ singularity exec -B /mnt/c/Workplace/soft/img/:/root/ circos.sif circos -conf ex
 ```
 
 You will get the circos.png and circos.svg in the /mnt/c/Workplace/soft/img/ directory.
+
+[![circos.png](circos.png)](./circos.png)
+
+[![circos.svg](circos.svg)](./circos.svg)
