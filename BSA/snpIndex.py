@@ -24,6 +24,7 @@ input_chr_len_file = sys.argv[2]
 window_size = int(sys.argv[3])
 output_file = sys.argv[4]
 threads = int(sys.argv[5])
+type = sys.argv[6]
 # output_png = sys.argv[5]
 # pos_dict = {1000000: 0.3, 2000000: 0.5, 2300000: 0.3, 2400000: 0.3, 2600000: 0.3,
 #             3000000: 0.3, 4000000: 0.2}
@@ -73,7 +74,13 @@ def process_chr(chr, value) -> list:
             chr_dict[key] = 0
             continue
         value = np.array(value, dtype=float)
-        value = np.mean(value)
+        if type == 'mean':
+            value = np.mean(value)
+        elif type == 'sum':
+            value = np.sum(value)
+        else:
+            print('type error')
+            sys.exit()
         chr_dict[key] = value
     for key, value in tqdm.tqdm(chr_dict.items(), desc='生成数据'):
         key = key.split('-')

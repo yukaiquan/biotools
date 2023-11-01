@@ -49,7 +49,9 @@ circos.svg
 #### 2. run
 
 ```bash
-singularity exec -B /mnt/c/Workplace/soft/img/:/root/ circos.sif circos -conf example/etc/circos.conf
+singularity exec -B `pwd`:/root/ circos.sif circos -conf example/etc/circos.conf
+# or
+singularity exec -f -w -B `pwd`:/root/ circos.sif circos -conf example/etc/circos.conf
 ```
 
 You will get the circos.png and circos.svg in the /mnt/c/Workplace/soft/img/ directory.

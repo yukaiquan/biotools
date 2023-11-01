@@ -5,16 +5,31 @@ From: centos 7
         # install other needed packages
         yum clean all
         yum -y update
-        # 
-        # install miniconda
+        yum -y install wget
+        yum -y groupinstall "Development tools"
+        yum install -y ncurses-devel gdbm-devel xz-devel sqlite-devel tk-devel uuid-devel readline-devel bzip2-devel libffi-devel
+        yum install -y openssl-devel openssl11 openssl11-devel
+        cd /opt
+        export CFLAGS=$(pkg-config --cflags openssl11)
+        export LDFLAGS=$(pkg-config --libs openssl11)
+        wget https://www.python.org/ftp/python/3.10.4/Python-3.10.4.tgz
+        tar -zxvf Python-3.10.4.tgz
+        cd Python-3.10.4
+        ./configure --prefix=/opt/python3 --enable-optimizations && make altinstall
+        ln -sf /opt/python3/bin/python3 /usr/bin/python3
+        ln -sf /opt/python3/bin/pip3 /usr/bin/pip3
+        pip3 install --upgrade pip
         
+        pip3 install django==3.2.9
  
 #%environment
 #       export PATH="${PATH}:/opt/hal/bin"
 
 %files
-        # Clone AUGUSTUS repository
-        . /opt/augustus
+        # Clone requirements.txt file
+        . /opt/
+
+
 
 %post
         # Build AUGUSTUS
