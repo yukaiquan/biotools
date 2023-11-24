@@ -1,0 +1,14 @@
+chr1C	chr1A	22
+chr1D	chr1A	3474
+chr2C	chr1A	1
+chr2D	chr1A	13
+chr3C	chr1A	2
+chr3D	chr1A	63
+chr4C	chr1A	16
+chr4D	chr1A	107
+chr5C	chr1A	309
+chr5D	chr1A	45
+chr6C	chr1A	17
+chr6D	chr1A	50
+chr7C	chr1A	15
+chr7D	chr1A	328
