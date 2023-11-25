@@ -115,7 +115,7 @@ def salmon(genome_index: str, genome_gff: str, fastq_1: str, fastq_2: str, threa
         print('salmon result exists: ' + output_dir + '/quant.sf')
         return ['NA', output_dir + '/quant.genes.sf', output_dir + '/quant.sf']
     if fastq_1 == fastq_2:
-        cmd = 'salmon quant -i ' + genome_index + ' -g ' + genome_gff + ' --gcBias -l A --numBootstraps 100 -r ' + \
+        cmd = 'salmon quant -i ' + genome_index + ' -g ' + genome_gff + ' --gcBias -l A --numBootstraps 100 -r ' + fastq_1 + \
             ' -p ' + str(threads) + ' -o ' + output_dir
     else:
         cmd = 'salmon quant -i ' + genome_index + ' -g ' + genome_gff + ' --gcBias -l A --numBootstraps 100 -1 ' + fastq_1 + ' -2 ' + fastq_2 + \
