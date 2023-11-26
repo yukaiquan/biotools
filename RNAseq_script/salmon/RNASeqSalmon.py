@@ -13,8 +13,10 @@ import argparse
 FASTP_OUT_DIR = '01_fastp'
 SALMON_OUT_DIR = '02_salmon'
 MATRIX_OUT_DIR = '03_matrix'
-KALLISTO = '/public/home/acfaa2ssz7/soft/kallisto2matrix'
-
+# 获取当前脚本所在路径
+SCRIPT_PATH = os.path.split(os.path.realpath(__file__))[0]
+KALLISTO = SCRIPT_PATH + '/kallisto2matrix'
+# 获取工作目录
 RUN_PATH = os.getcwd()
 
 
