@@ -225,7 +225,11 @@ for key, value in genome_index.items():
         #     value[0], value[1], fastq_1, fastq_2, salmon_threads, key)[1]
         salmon_cmd, salmon_gene_out, salmon_transcript_out = salmon(
             value[0], value[1], fastq_1, fastq_2, salmon_threads, key)
-        salmon_cmd_list.append(salmon_cmd)
+        output_dir = SALMON_OUT_DIR + '/' + \
+            fastq_1.split('/')[-1].split('.')[0].split('_')[0] + '_' + key
+        # 判断output_dir文件夹是否存在
+        if not os.path.exists(output_dir):
+            salmon_cmd_list.append(salmon_cmd)
         salmon_gene_out_dict[key2 + '_' + key] = salmon_gene_out
         salmon_transcript_out_dict[key2 + '_' + key] = salmon_transcript_out
 
