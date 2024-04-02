@@ -18,6 +18,10 @@ def parse_args():
                         required=True, help='Output folder')
     parser.add_argument('-t', '--threads', type=int, default=16,
                         help='Number of threads')
+    parser.add_argument('-s', '--self1', type=bool, default=False,
+                        help='self blast 1')
+    parser.add_argument('-S', '--self2', type=bool, default=False,
+                        help='self blast 2')
     return parser.parse_args()
 
 
@@ -68,6 +72,8 @@ def main():
     input = args.input
     input2 = args.input2
     threads = args.threads
+    self1 = args.self1
+    self2 = args.self2
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
     if makeblastdb(input, input) != 0:
@@ -79,19 +85,17 @@ def main():
     blastp_list = []
     blastp_list.append([input, output_dir + '/' + input +
                        '_' + input2 + '.blast', input2, threads])
+    if self1:
+        blastp_list.append([input, output_dir + '/' + input +
+                            '_' + input + '.blast', input, threads])
     blastp_list.append([input2, output_dir + '/' + input2 +
                        '_' + input + '.blast', input, threads])
-    blastp_list.append([input, output_dir + '/' + input +
-                       '_' + input + '.blast', input, threads])
-    blastp_list.append([input2, output_dir + '/' + input2 +
-                       '_' + input2 + '.blast', input2, threads])
+    if self2:
+        blastp_list.append([input2, output_dir + '/' + input2 +
+                            '_' + input2 + '.blast', input2, threads])
     for blastp in blastp_list:
-        if blastp[0] != blastp[2]:
-            if blastp_run(blastp[0], blastp[1], blastp[2], blastp[3]) != 0:
-                print('Error: blastp')
-                sys.exit(1)
-        else:
-            print('Error: genome is the same')
+        if blastp_run(blastp[0], blastp[1], blastp[2], blastp[3]) != 0:
+            print('Error: blastp')
             sys.exit(1)
     print('blastp done!')
     print('Done!')
