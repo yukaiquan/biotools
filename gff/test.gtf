@@ -1,0 +1,1491 @@
+chr1A	EVM	gene	251998	253535	.	-	.	AVESA.00400a.r2.1Ag0000001
+chr1A	EVM	transcript	251998	253535	.	-	.	AVESA.00400a.r2.1Ag0000001.1
+chr1A	EVM	stop_codon	251998	252000	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000001.1"; gene_id "AVESA.00400a.r2.1Ag0000001";
+chr1A	EVM	CDS	251998	252744	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000001.1"; gene_id "AVESA.00400a.r2.1Ag0000001";
+chr1A	EVM	exon	251998	252744	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000001.1"; gene_id "AVESA.00400a.r2.1Ag0000001";
+chr1A	EVM	intron	252745	252869	-	.	transcript_id "AVESA.00400a.r2.1Ag0000001.1"; gene_id "AVESA.00400a.r2.1Ag0000001";
+chr1A	EVM	CDS	252870	253535	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000001.1"; gene_id "AVESA.00400a.r2.1Ag0000001";
+chr1A	EVM	exon	252870	253535	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000001.1"; gene_id "AVESA.00400a.r2.1Ag0000001";
+chr1A	EVM	start_codon	253533	253535	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000001.1"; gene_id "AVESA.00400a.r2.1Ag0000001";
+chr1A	EVM	gene	264866	266662	.	+	.	AVESA.00400a.r2.1Ag0000002
+chr1A	EVM	transcript	264866	266662	.	+	.	AVESA.00400a.r2.1Ag0000002.1
+chr1A	EVM	start_codon	264866	264868	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	CDS	264866	265342	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	exon	264866	265342	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	CDS	265442	265686	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	exon	265442	265686	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	intron	265343	265441	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	CDS	265779	266133	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	exon	265779	266133	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	intron	265687	265778	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	intron	266134	266236	+	.	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	CDS	266237	266662	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	exon	266237	266662	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	stop_codon	266660	266662	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000002.1"; gene_id "AVESA.00400a.r2.1Ag0000002";
+chr1A	EVM	gene	288130	289176	.	+	.	AVESA.00400a.r2.1Ag0000003
+chr1A	EVM	transcript	288130	289176	.	+	.	AVESA.00400a.r2.1Ag0000003.1
+chr1A	EVM	start_codon	288130	288132	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000003.1"; gene_id "AVESA.00400a.r2.1Ag0000003";
+chr1A	EVM	CDS	288130	288458	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000003.1"; gene_id "AVESA.00400a.r2.1Ag0000003";
+chr1A	EVM	exon	288130	288458	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000003.1"; gene_id "AVESA.00400a.r2.1Ag0000003";
+chr1A	EVM	CDS	288808	288981	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000003.1"; gene_id "AVESA.00400a.r2.1Ag0000003";
+chr1A	EVM	exon	288808	288981	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000003.1"; gene_id "AVESA.00400a.r2.1Ag0000003";
+chr1A	EVM	intron	288459	288807	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000003.1"; gene_id "AVESA.00400a.r2.1Ag0000003";
+chr1A	EVM	intron	288982	289061	+	.	transcript_id "AVESA.00400a.r2.1Ag0000003.1"; gene_id "AVESA.00400a.r2.1Ag0000003";
+chr1A	EVM	CDS	289062	289176	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000003.1"; gene_id "AVESA.00400a.r2.1Ag0000003";
+chr1A	EVM	exon	289062	289176	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000003.1"; gene_id "AVESA.00400a.r2.1Ag0000003";
+chr1A	EVM	stop_codon	289174	289176	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000003.1"; gene_id "AVESA.00400a.r2.1Ag0000003";
+chr1A	EVM	gene	304624	309024	.	-	.	AVESA.00400a.r2.1Ag0000004
+chr1A	EVM	transcript	304624	309024	.	-	.	AVESA.00400a.r2.1Ag0000004.1
+chr1A	EVM	stop_codon	304624	304626	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000004.1"; gene_id "AVESA.00400a.r2.1Ag0000004";
+chr1A	EVM	CDS	304624	305049	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000004.1"; gene_id "AVESA.00400a.r2.1Ag0000004";
+chr1A	EVM	exon	304624	305049	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000004.1"; gene_id "AVESA.00400a.r2.1Ag0000004";
+chr1A	EVM	intron	305050	308490	-	.	transcript_id "AVESA.00400a.r2.1Ag0000004.1"; gene_id "AVESA.00400a.r2.1Ag0000004";
+chr1A	EVM	CDS	308491	309024	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000004.1"; gene_id "AVESA.00400a.r2.1Ag0000004";
+chr1A	EVM	exon	308491	309024	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000004.1"; gene_id "AVESA.00400a.r2.1Ag0000004";
+chr1A	EVM	start_codon	309022	309024	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000004.1"; gene_id "AVESA.00400a.r2.1Ag0000004";
+chr1A	EVM	gene	322693	324358	.	-	.	AVESA.00400a.r2.1Ag0000005
+chr1A	EVM	transcript	322693	324358	.	-	.	AVESA.00400a.r2.1Ag0000005.1
+chr1A	EVM	stop_codon	322693	322695	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000005.1"; gene_id "AVESA.00400a.r2.1Ag0000005";
+chr1A	EVM	CDS	322693	323536	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000005.1"; gene_id "AVESA.00400a.r2.1Ag0000005";
+chr1A	EVM	exon	322693	323536	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000005.1"; gene_id "AVESA.00400a.r2.1Ag0000005";
+chr1A	EVM	intron	323537	323645	-	.	transcript_id "AVESA.00400a.r2.1Ag0000005.1"; gene_id "AVESA.00400a.r2.1Ag0000005";
+chr1A	EVM	CDS	323646	324358	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000005.1"; gene_id "AVESA.00400a.r2.1Ag0000005";
+chr1A	EVM	exon	323646	324358	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000005.1"; gene_id "AVESA.00400a.r2.1Ag0000005";
+chr1A	EVM	start_codon	324356	324358	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000005.1"; gene_id "AVESA.00400a.r2.1Ag0000005";
+chr1A	EVM	gene	415621	417099	.	+	.	AVESA.00400a.r2.1Ag0000006
+chr1A	EVM	transcript	415621	417099	.	+	.	AVESA.00400a.r2.1Ag0000006.1
+chr1A	EVM	start_codon	415621	415623	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000006.1"; gene_id "AVESA.00400a.r2.1Ag0000006";
+chr1A	EVM	CDS	415621	417099	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000006.1"; gene_id "AVESA.00400a.r2.1Ag0000006";
+chr1A	EVM	exon	415621	417099	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000006.1"; gene_id "AVESA.00400a.r2.1Ag0000006";
+chr1A	EVM	stop_codon	417097	417099	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000006.1"; gene_id "AVESA.00400a.r2.1Ag0000006";
+chr1A	EVM	gene	464708	466291	.	+	.	AVESA.00400a.r2.1Ag0000007
+chr1A	EVM	transcript	464708	466291	.	+	.	AVESA.00400a.r2.1Ag0000007.1
+chr1A	EVM	start_codon	464708	464710	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000007.1"; gene_id "AVESA.00400a.r2.1Ag0000007";
+chr1A	EVM	CDS	464708	466291	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000007.1"; gene_id "AVESA.00400a.r2.1Ag0000007";
+chr1A	EVM	exon	464708	466291	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000007.1"; gene_id "AVESA.00400a.r2.1Ag0000007";
+chr1A	EVM	stop_codon	466289	466291	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000007.1"; gene_id "AVESA.00400a.r2.1Ag0000007";
+chr1A	EVM	gene	475611	476782	.	+	.	AVESA.00400a.r2.1Ag0000008
+chr1A	EVM	transcript	475611	476782	.	+	.	AVESA.00400a.r2.1Ag0000008.1
+chr1A	EVM	start_codon	475611	475613	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000008.1"; gene_id "AVESA.00400a.r2.1Ag0000008";
+chr1A	EVM	CDS	475611	476351	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000008.1"; gene_id "AVESA.00400a.r2.1Ag0000008";
+chr1A	EVM	exon	475611	476351	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000008.1"; gene_id "AVESA.00400a.r2.1Ag0000008";
+chr1A	EVM	intron	476352	476491	+	.	transcript_id "AVESA.00400a.r2.1Ag0000008.1"; gene_id "AVESA.00400a.r2.1Ag0000008";
+chr1A	EVM	CDS	476492	476782	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000008.1"; gene_id "AVESA.00400a.r2.1Ag0000008";
+chr1A	EVM	exon	476492	476782	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000008.1"; gene_id "AVESA.00400a.r2.1Ag0000008";
+chr1A	EVM	stop_codon	476780	476782	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000008.1"; gene_id "AVESA.00400a.r2.1Ag0000008";
+chr1A	EVM	gene	515678	517162	.	-	.	AVESA.00400a.r2.1Ag0000009
+chr1A	EVM	transcript	515678	517162	.	-	.	AVESA.00400a.r2.1Ag0000009.1
+chr1A	EVM	stop_codon	515678	515680	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000009.1"; gene_id "AVESA.00400a.r2.1Ag0000009";
+chr1A	EVM	CDS	515678	516445	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000009.1"; gene_id "AVESA.00400a.r2.1Ag0000009";
+chr1A	EVM	exon	515678	516445	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000009.1"; gene_id "AVESA.00400a.r2.1Ag0000009";
+chr1A	EVM	intron	516446	516538	-	.	transcript_id "AVESA.00400a.r2.1Ag0000009.1"; gene_id "AVESA.00400a.r2.1Ag0000009";
+chr1A	EVM	CDS	516539	517162	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000009.1"; gene_id "AVESA.00400a.r2.1Ag0000009";
+chr1A	EVM	exon	516539	517162	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000009.1"; gene_id "AVESA.00400a.r2.1Ag0000009";
+chr1A	EVM	start_codon	517160	517162	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000009.1"; gene_id "AVESA.00400a.r2.1Ag0000009";
+chr1A	EVM	gene	524843	526291	.	+	.	AVESA.00400a.r2.1Ag0000010
+chr1A	EVM	transcript	524843	526291	.	+	.	AVESA.00400a.r2.1Ag0000010.1
+chr1A	EVM	start_codon	524843	524845	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000010.1"; gene_id "AVESA.00400a.r2.1Ag0000010";
+chr1A	EVM	CDS	524843	526291	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000010.1"; gene_id "AVESA.00400a.r2.1Ag0000010";
+chr1A	EVM	exon	524843	526291	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000010.1"; gene_id "AVESA.00400a.r2.1Ag0000010";
+chr1A	EVM	stop_codon	526289	526291	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000010.1"; gene_id "AVESA.00400a.r2.1Ag0000010";
+chr1A	EVM	gene	627235	634575	.	+	.	AVESA.00400a.r2.1Ag0000011
+chr1A	EVM	transcript	627235	634575	.	+	.	AVESA.00400a.r2.1Ag0000011.1
+chr1A	EVM	start_codon	627235	627237	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	627235	627432	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	627235	627432	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	627620	627808	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	627620	627808	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	627433	627619	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	628936	629025	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	628936	629025	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	627809	628935	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	629129	629326	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	629129	629326	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	629026	629128	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	629415	629499	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	629415	629499	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	629327	629414	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	629974	630140	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	629974	630140	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	629500	629973	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	630347	630535	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	630347	630535	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	630141	630346	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	630628	630741	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	630628	630741	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	630536	630627	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	631149	631271	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	631149	631271	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	630742	631148	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	631344	631463	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	631344	631463	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	631272	631343	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	631600	631698	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	631600	631698	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	631464	631599	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	631997	632053	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	631997	632053	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	631699	631996	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	632315	632361	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	632315	632361	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	632054	632314	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	632457	632600	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	632457	632600	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	632362	632456	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	632686	632863	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	632686	632863	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	632601	632685	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	633850	633924	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	633850	633924	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	632864	633849	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	634050	634133	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	634050	634133	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	633925	634049	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	intron	634134	634458	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	CDS	634459	634575	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	exon	634459	634575	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	stop_codon	634573	634575	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000011.1"; gene_id "AVESA.00400a.r2.1Ag0000011";
+chr1A	EVM	gene	695609	699258	.	+	.	AVESA.00400a.r2.1Ag0000012
+chr1A	EVM	transcript	695609	699258	.	+	.	AVESA.00400a.r2.1Ag0000012.1
+chr1A	EVM	start_codon	695609	695611	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000012.1"; gene_id "AVESA.00400a.r2.1Ag0000012";
+chr1A	EVM	CDS	695609	696082	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000012.1"; gene_id "AVESA.00400a.r2.1Ag0000012";
+chr1A	EVM	exon	695609	696082	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000012.1"; gene_id "AVESA.00400a.r2.1Ag0000012";
+chr1A	EVM	CDS	697058	698020	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000012.1"; gene_id "AVESA.00400a.r2.1Ag0000012";
+chr1A	EVM	exon	697058	698020	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000012.1"; gene_id "AVESA.00400a.r2.1Ag0000012";
+chr1A	EVM	intron	696083	697057	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000012.1"; gene_id "AVESA.00400a.r2.1Ag0000012";
+chr1A	EVM	intron	698021	699147	+	.	transcript_id "AVESA.00400a.r2.1Ag0000012.1"; gene_id "AVESA.00400a.r2.1Ag0000012";
+chr1A	EVM	CDS	699148	699258	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000012.1"; gene_id "AVESA.00400a.r2.1Ag0000012";
+chr1A	EVM	exon	699148	699258	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000012.1"; gene_id "AVESA.00400a.r2.1Ag0000012";
+chr1A	EVM	stop_codon	699256	699258	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000012.1"; gene_id "AVESA.00400a.r2.1Ag0000012";
+chr1A	EVM	gene	743265	744609	.	-	.	AVESA.00400a.r2.1Ag0000013
+chr1A	EVM	transcript	743265	744609	.	-	.	AVESA.00400a.r2.1Ag0000013.1
+chr1A	EVM	stop_codon	743265	743267	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000013.1"; gene_id "AVESA.00400a.r2.1Ag0000013";
+chr1A	EVM	CDS	743265	744068	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000013.1"; gene_id "AVESA.00400a.r2.1Ag0000013";
+chr1A	EVM	exon	743265	744068	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000013.1"; gene_id "AVESA.00400a.r2.1Ag0000013";
+chr1A	EVM	intron	744069	744573	-	.	transcript_id "AVESA.00400a.r2.1Ag0000013.1"; gene_id "AVESA.00400a.r2.1Ag0000013";
+chr1A	EVM	CDS	744574	744609	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000013.1"; gene_id "AVESA.00400a.r2.1Ag0000013";
+chr1A	EVM	exon	744574	744609	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000013.1"; gene_id "AVESA.00400a.r2.1Ag0000013";
+chr1A	EVM	start_codon	744607	744609	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000013.1"; gene_id "AVESA.00400a.r2.1Ag0000013";
+chr1A	EVM	gene	767821	770383	.	+	.	AVESA.00400a.r2.1Ag0000014
+chr1A	EVM	transcript	767821	770383	.	+	.	AVESA.00400a.r2.1Ag0000014.1
+chr1A	EVM	start_codon	767821	767823	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	CDS	767821	768085	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	exon	767821	768085	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	CDS	768182	768285	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	exon	768182	768285	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	intron	768086	768181	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	CDS	768405	768604	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	exon	768405	768604	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	intron	768286	768404	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	CDS	768686	768786	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	exon	768686	768786	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	intron	768605	768685	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	CDS	768902	769088	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	exon	768902	769088	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	intron	768787	768901	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	CDS	769169	769330	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	exon	769169	769330	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	intron	769089	769168	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	CDS	769476	769557	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	exon	769476	769557	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	intron	769331	769475	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	CDS	769652	770043	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	exon	769652	770043	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	intron	769558	769651	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	intron	770044	770136	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	CDS	770137	770383	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	exon	770137	770383	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	stop_codon	770381	770383	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000014.1"; gene_id "AVESA.00400a.r2.1Ag0000014";
+chr1A	EVM	gene	1396970	1403229	.	+	.	AVESA.00400a.r2.1Ag0000015
+chr1A	EVM	transcript	1396970	1403229	.	+	.	AVESA.00400a.r2.1Ag0000015.1
+chr1A	EVM	start_codon	1396970	1396972	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	CDS	1396970	1397038	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	exon	1396970	1397038	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	CDS	1400200	1400309	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	exon	1400200	1400309	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	intron	1397039	1400199	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	CDS	1400425	1400522	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	exon	1400425	1400522	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	intron	1400310	1400424	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	CDS	1400920	1401084	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	exon	1400920	1401084	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	intron	1400523	1400919	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	CDS	1401190	1401298	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	exon	1401190	1401298	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	intron	1401085	1401189	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	intron	1401299	1401476	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	CDS	1401477	1403229	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	exon	1401477	1403229	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	stop_codon	1403227	1403229	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000015.1"; gene_id "AVESA.00400a.r2.1Ag0000015";
+chr1A	EVM	gene	1531677	1539957	.	+	.	AVESA.00400a.r2.1Ag0000016
+chr1A	EVM	transcript	1531677	1539957	.	+	.	AVESA.00400a.r2.1Ag0000016.1
+chr1A	EVM	start_codon	1531677	1531679	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1531677	1531802	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1531677	1531802	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1531907	1531972	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1531907	1531972	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	intron	1531803	1531906	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1532081	1532169	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1532081	1532169	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	intron	1531973	1532080	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1532288	1532433	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1532288	1532433	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	intron	1532170	1532287	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1538118	1538242	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1538118	1538242	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	intron	1532434	1538117	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1538323	1538416	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1538323	1538416	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	intron	1538243	1538322	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1538526	1538689	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1538526	1538689	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	intron	1538417	1538525	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1538877	1539038	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1538877	1539038	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	intron	1538690	1538876	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1539125	1539251	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1539125	1539251	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	intron	1539039	1539124	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1539349	1539515	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1539349	1539515	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	intron	1539252	1539348	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1539626	1539733	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1539626	1539733	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	intron	1539516	1539625	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	intron	1539734	1539861	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	CDS	1539862	1539957	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	exon	1539862	1539957	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	stop_codon	1539955	1539957	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000016.1"; gene_id "AVESA.00400a.r2.1Ag0000016";
+chr1A	EVM	gene	1574935	1576422	.	+	.	AVESA.00400a.r2.1Ag0000017
+chr1A	EVM	transcript	1574935	1576422	.	+	.	AVESA.00400a.r2.1Ag0000017.1
+chr1A	EVM	start_codon	1574935	1574937	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000017.1"; gene_id "AVESA.00400a.r2.1Ag0000017";
+chr1A	EVM	CDS	1574935	1576422	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000017.1"; gene_id "AVESA.00400a.r2.1Ag0000017";
+chr1A	EVM	exon	1574935	1576422	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000017.1"; gene_id "AVESA.00400a.r2.1Ag0000017";
+chr1A	EVM	stop_codon	1576420	1576422	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000017.1"; gene_id "AVESA.00400a.r2.1Ag0000017";
+chr1A	EVM	gene	1582397	1584337	.	+	.	AVESA.00400a.r2.1Ag0000018
+chr1A	EVM	transcript	1582397	1584337	.	+	.	AVESA.00400a.r2.1Ag0000018.1
+chr1A	EVM	start_codon	1582397	1582399	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000018.1"; gene_id "AVESA.00400a.r2.1Ag0000018";
+chr1A	EVM	CDS	1582397	1582529	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000018.1"; gene_id "AVESA.00400a.r2.1Ag0000018";
+chr1A	EVM	exon	1582397	1582529	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000018.1"; gene_id "AVESA.00400a.r2.1Ag0000018";
+chr1A	EVM	CDS	1582618	1582835	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000018.1"; gene_id "AVESA.00400a.r2.1Ag0000018";
+chr1A	EVM	exon	1582618	1582835	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000018.1"; gene_id "AVESA.00400a.r2.1Ag0000018";
+chr1A	EVM	intron	1582530	1582617	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000018.1"; gene_id "AVESA.00400a.r2.1Ag0000018";
+chr1A	EVM	intron	1582836	1583056	+	.	transcript_id "AVESA.00400a.r2.1Ag0000018.1"; gene_id "AVESA.00400a.r2.1Ag0000018";
+chr1A	EVM	CDS	1583057	1584337	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000018.1"; gene_id "AVESA.00400a.r2.1Ag0000018";
+chr1A	EVM	exon	1583057	1584337	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000018.1"; gene_id "AVESA.00400a.r2.1Ag0000018";
+chr1A	EVM	stop_codon	1584335	1584337	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000018.1"; gene_id "AVESA.00400a.r2.1Ag0000018";
+chr1A	EVM	gene	1646344	1646829	.	+	.	AVESA.00400a.r2.1Ag0000019
+chr1A	EVM	transcript	1646344	1646829	.	+	.	AVESA.00400a.r2.1Ag0000019.1
+chr1A	EVM	start_codon	1646344	1646346	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000019.1"; gene_id "AVESA.00400a.r2.1Ag0000019";
+chr1A	EVM	CDS	1646344	1646829	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000019.1"; gene_id "AVESA.00400a.r2.1Ag0000019";
+chr1A	EVM	exon	1646344	1646829	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000019.1"; gene_id "AVESA.00400a.r2.1Ag0000019";
+chr1A	EVM	stop_codon	1646827	1646829	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000019.1"; gene_id "AVESA.00400a.r2.1Ag0000019";
+chr1A	EVM	gene	1667079	1668947	.	+	.	AVESA.00400a.r2.1Ag0000020
+chr1A	EVM	transcript	1667079	1668947	.	+	.	AVESA.00400a.r2.1Ag0000020.1
+chr1A	EVM	start_codon	1667079	1667081	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	CDS	1667079	1668237	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	exon	1667079	1668237	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	CDS	1668325	1668443	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	exon	1668325	1668443	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	intron	1668238	1668324	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	CDS	1668542	1668628	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	exon	1668542	1668628	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	intron	1668444	1668541	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	intron	1668629	1668872	+	.	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	CDS	1668873	1668947	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	exon	1668873	1668947	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	stop_codon	1668945	1668947	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000020.1"; gene_id "AVESA.00400a.r2.1Ag0000020";
+chr1A	EVM	gene	1730239	1734123	.	+	.	AVESA.00400a.r2.1Ag0000021
+chr1A	EVM	transcript	1730239	1734123	.	+	.	AVESA.00400a.r2.1Ag0000021.1
+chr1A	EVM	start_codon	1730239	1730241	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	CDS	1730239	1730330	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	exon	1730239	1730330	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	CDS	1732051	1732462	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	exon	1732051	1732462	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	intron	1730331	1732050	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	CDS	1732537	1732806	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	exon	1732537	1732806	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	intron	1732463	1732536	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	CDS	1732894	1733070	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	exon	1732894	1733070	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	intron	1732807	1732893	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	CDS	1733217	1733387	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	exon	1733217	1733387	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	intron	1733071	1733216	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	intron	1733388	1733454	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	CDS	1733455	1734123	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	exon	1733455	1734123	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	stop_codon	1734121	1734123	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000021.1"; gene_id "AVESA.00400a.r2.1Ag0000021";
+chr1A	EVM	gene	1738936	1740929	.	-	.	AVESA.00400a.r2.1Ag0000022
+chr1A	EVM	transcript	1738936	1740929	.	-	.	AVESA.00400a.r2.1Ag0000022.1
+chr1A	EVM	stop_codon	1738936	1738938	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000022.1"; gene_id "AVESA.00400a.r2.1Ag0000022";
+chr1A	EVM	CDS	1738936	1740387	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000022.1"; gene_id "AVESA.00400a.r2.1Ag0000022";
+chr1A	EVM	exon	1738936	1740387	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000022.1"; gene_id "AVESA.00400a.r2.1Ag0000022";
+chr1A	EVM	intron	1740388	1740482	-	.	transcript_id "AVESA.00400a.r2.1Ag0000022.1"; gene_id "AVESA.00400a.r2.1Ag0000022";
+chr1A	EVM	CDS	1740483	1740929	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000022.1"; gene_id "AVESA.00400a.r2.1Ag0000022";
+chr1A	EVM	exon	1740483	1740929	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000022.1"; gene_id "AVESA.00400a.r2.1Ag0000022";
+chr1A	EVM	start_codon	1740927	1740929	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000022.1"; gene_id "AVESA.00400a.r2.1Ag0000022";
+chr1A	EVM	gene	1764039	1764822	.	-	.	AVESA.00400a.r2.1Ag0000023
+chr1A	EVM	transcript	1764039	1764822	.	-	.	AVESA.00400a.r2.1Ag0000023.1
+chr1A	EVM	stop_codon	1764039	1764041	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	CDS	1764039	1764167	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	exon	1764039	1764167	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	CDS	1764244	1764404	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	exon	1764244	1764404	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	intron	1764168	1764243	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	CDS	1764506	1764607	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	exon	1764506	1764607	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	intron	1764405	1764505	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	intron	1764608	1764719	-	.	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	CDS	1764720	1764822	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	exon	1764720	1764822	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	start_codon	1764820	1764822	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000023.1"; gene_id "AVESA.00400a.r2.1Ag0000023";
+chr1A	EVM	gene	1815596	1816833	.	-	.	AVESA.00400a.r2.1Ag0000024
+chr1A	EVM	transcript	1815596	1816833	.	-	.	AVESA.00400a.r2.1Ag0000024.1
+chr1A	EVM	stop_codon	1815596	1815598	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000024.1"; gene_id "AVESA.00400a.r2.1Ag0000024";
+chr1A	EVM	CDS	1815596	1815922	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000024.1"; gene_id "AVESA.00400a.r2.1Ag0000024";
+chr1A	EVM	exon	1815596	1815922	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000024.1"; gene_id "AVESA.00400a.r2.1Ag0000024";
+chr1A	EVM	intron	1815923	1816044	-	.	transcript_id "AVESA.00400a.r2.1Ag0000024.1"; gene_id "AVESA.00400a.r2.1Ag0000024";
+chr1A	EVM	CDS	1816045	1816833	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000024.1"; gene_id "AVESA.00400a.r2.1Ag0000024";
+chr1A	EVM	exon	1816045	1816833	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000024.1"; gene_id "AVESA.00400a.r2.1Ag0000024";
+chr1A	EVM	start_codon	1816831	1816833	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000024.1"; gene_id "AVESA.00400a.r2.1Ag0000024";
+chr1A	EVM	gene	1842907	1845867	.	-	.	AVESA.00400a.r2.1Ag0000025
+chr1A	EVM	transcript	1842907	1845867	.	-	.	AVESA.00400a.r2.1Ag0000025.1
+chr1A	EVM	stop_codon	1842907	1842909	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1842907	1843083	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1842907	1843083	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1843165	1843292	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1843165	1843292	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	intron	1843084	1843164	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1843385	1843526	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1843385	1843526	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	intron	1843293	1843384	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1843632	1843727	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1843632	1843727	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	intron	1843527	1843631	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1843797	1843937	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1843797	1843937	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	intron	1843728	1843796	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1844100	1844274	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1844100	1844274	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	intron	1843938	1844099	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1844410	1844542	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1844410	1844542	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	intron	1844275	1844409	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1844631	1844703	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1844631	1844703	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	intron	1844543	1844630	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1844784	1844877	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1844784	1844877	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	intron	1844704	1844783	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1845374	1845465	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1845374	1845465	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	intron	1844878	1845373	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1845576	1845670	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1845576	1845670	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	intron	1845466	1845575	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	intron	1845671	1845752	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	CDS	1845753	1845867	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	exon	1845753	1845867	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	start_codon	1845865	1845867	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000025.1"; gene_id "AVESA.00400a.r2.1Ag0000025";
+chr1A	EVM	gene	2042574	2043193	.	+	.	AVESA.00400a.r2.1Ag0000026
+chr1A	EVM	transcript	2042574	2043193	.	+	.	AVESA.00400a.r2.1Ag0000026.1
+chr1A	EVM	start_codon	2042574	2042576	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000026.1"; gene_id "AVESA.00400a.r2.1Ag0000026";
+chr1A	EVM	CDS	2042574	2043060	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000026.1"; gene_id "AVESA.00400a.r2.1Ag0000026";
+chr1A	EVM	exon	2042574	2043060	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000026.1"; gene_id "AVESA.00400a.r2.1Ag0000026";
+chr1A	EVM	intron	2043061	2043149	+	.	transcript_id "AVESA.00400a.r2.1Ag0000026.1"; gene_id "AVESA.00400a.r2.1Ag0000026";
+chr1A	EVM	CDS	2043150	2043193	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000026.1"; gene_id "AVESA.00400a.r2.1Ag0000026";
+chr1A	EVM	exon	2043150	2043193	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000026.1"; gene_id "AVESA.00400a.r2.1Ag0000026";
+chr1A	EVM	stop_codon	2043191	2043193	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000026.1"; gene_id "AVESA.00400a.r2.1Ag0000026";
+chr1A	EVM	gene	2043299	2044057	.	+	.	AVESA.00400a.r2.1Ag0000027
+chr1A	EVM	transcript	2043299	2044057	.	+	.	AVESA.00400a.r2.1Ag0000027.1
+chr1A	EVM	start_codon	2043299	2043301	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000027.1"; gene_id "AVESA.00400a.r2.1Ag0000027";
+chr1A	EVM	CDS	2043299	2044057	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000027.1"; gene_id "AVESA.00400a.r2.1Ag0000027";
+chr1A	EVM	exon	2043299	2044057	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000027.1"; gene_id "AVESA.00400a.r2.1Ag0000027";
+chr1A	EVM	stop_codon	2044055	2044057	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000027.1"; gene_id "AVESA.00400a.r2.1Ag0000027";
+chr1A	EVM	gene	2612412	2614962	.	-	.	AVESA.00400a.r2.1Ag0000028
+chr1A	EVM	transcript	2612412	2614962	.	-	.	AVESA.00400a.r2.1Ag0000028.1
+chr1A	EVM	stop_codon	2612412	2612414	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	CDS	2612412	2612658	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	exon	2612412	2612658	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	CDS	2612752	2613143	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	exon	2612752	2613143	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	intron	2612659	2612751	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	CDS	2613238	2613319	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	exon	2613238	2613319	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	intron	2613144	2613237	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	CDS	2613463	2613624	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	exon	2613463	2613624	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	intron	2613320	2613462	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	CDS	2613705	2613891	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	exon	2613705	2613891	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	intron	2613625	2613704	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	CDS	2614003	2614103	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	exon	2614003	2614103	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	intron	2613892	2614002	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	CDS	2614185	2614384	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	exon	2614185	2614384	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	intron	2614104	2614184	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	CDS	2614498	2614601	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	exon	2614498	2614601	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	intron	2614385	2614497	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	intron	2614602	2614697	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	CDS	2614698	2614962	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	exon	2614698	2614962	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	start_codon	2614960	2614962	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000028.1"; gene_id "AVESA.00400a.r2.1Ag0000028";
+chr1A	EVM	gene	2671326	2674985	.	-	.	AVESA.00400a.r2.1Ag0000029
+chr1A	EVM	transcript	2671326	2674985	.	-	.	AVESA.00400a.r2.1Ag0000029.1
+chr1A	EVM	stop_codon	2671326	2671328	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	CDS	2671326	2671538	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	exon	2671326	2671538	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	CDS	2672746	2672828	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	exon	2672746	2672828	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	intron	2671539	2672745	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	CDS	2672956	2673523	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	exon	2672956	2673523	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	intron	2672829	2672955	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	intron	2673524	2674511	-	.	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	CDS	2674512	2674985	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	exon	2674512	2674985	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	start_codon	2674983	2674985	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000029.1"; gene_id "AVESA.00400a.r2.1Ag0000029";
+chr1A	EVM	gene	2693265	2694494	.	+	.	AVESA.00400a.r2.1Ag0000030
+chr1A	EVM	transcript	2693265	2694494	.	+	.	AVESA.00400a.r2.1Ag0000030.1
+chr1A	EVM	start_codon	2693265	2693267	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000030.1"; gene_id "AVESA.00400a.r2.1Ag0000030";
+chr1A	EVM	CDS	2693265	2694494	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000030.1"; gene_id "AVESA.00400a.r2.1Ag0000030";
+chr1A	EVM	exon	2693265	2694494	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000030.1"; gene_id "AVESA.00400a.r2.1Ag0000030";
+chr1A	EVM	stop_codon	2694492	2694494	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000030.1"; gene_id "AVESA.00400a.r2.1Ag0000030";
+chr1A	EVM	gene	2763038	2769975	.	-	.	AVESA.00400a.r2.1Ag0000031
+chr1A	EVM	transcript	2763038	2769975	.	-	.	AVESA.00400a.r2.1Ag0000031.1
+chr1A	EVM	stop_codon	2763038	2763040	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	CDS	2763038	2763154	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	exon	2763038	2763154	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	CDS	2763480	2763563	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	exon	2763480	2763563	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	intron	2763155	2763479	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	CDS	2763689	2763763	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	exon	2763689	2763763	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	intron	2763564	2763688	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	CDS	2764743	2764920	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	exon	2764743	2764920	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	intron	2763764	2764742	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	CDS	2765006	2765149	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	exon	2765006	2765149	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	intron	2764921	2765005	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	CDS	2765245	2765291	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	exon	2765245	2765291	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	intron	2765150	2765244	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	CDS	2765911	2766009	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	exon	2765911	2766009	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	intron	2765292	2765910	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	CDS	2766146	2766265	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	exon	2766146	2766265	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	intron	2766010	2766145	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	CDS	2766338	2766460	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	exon	2766338	2766460	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	intron	2766266	2766337	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	CDS	2769404	2769592	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	exon	2769404	2769592	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	intron	2766461	2769403	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	intron	2769593	2769777	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	CDS	2769778	2769975	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	exon	2769778	2769975	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	start_codon	2769973	2769975	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000031.1"; gene_id "AVESA.00400a.r2.1Ag0000031";
+chr1A	EVM	gene	2827373	2828838	.	-	.	AVESA.00400a.r2.1Ag0000032
+chr1A	EVM	transcript	2827373	2828838	.	-	.	AVESA.00400a.r2.1Ag0000032.1
+chr1A	EVM	stop_codon	2827373	2827375	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000032.1"; gene_id "AVESA.00400a.r2.1Ag0000032";
+chr1A	EVM	CDS	2827373	2828359	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000032.1"; gene_id "AVESA.00400a.r2.1Ag0000032";
+chr1A	EVM	exon	2827373	2828359	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000032.1"; gene_id "AVESA.00400a.r2.1Ag0000032";
+chr1A	EVM	intron	2828360	2828445	-	.	transcript_id "AVESA.00400a.r2.1Ag0000032.1"; gene_id "AVESA.00400a.r2.1Ag0000032";
+chr1A	EVM	CDS	2828446	2828838	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000032.1"; gene_id "AVESA.00400a.r2.1Ag0000032";
+chr1A	EVM	exon	2828446	2828838	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000032.1"; gene_id "AVESA.00400a.r2.1Ag0000032";
+chr1A	EVM	start_codon	2828836	2828838	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000032.1"; gene_id "AVESA.00400a.r2.1Ag0000032";
+chr1A	EVM	gene	2857627	2859130	.	+	.	AVESA.00400a.r2.1Ag0000033
+chr1A	EVM	transcript	2857627	2859130	.	+	.	AVESA.00400a.r2.1Ag0000033.1
+chr1A	EVM	start_codon	2857627	2857629	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000033.1"; gene_id "AVESA.00400a.r2.1Ag0000033";
+chr1A	EVM	CDS	2857627	2858253	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000033.1"; gene_id "AVESA.00400a.r2.1Ag0000033";
+chr1A	EVM	exon	2857627	2858253	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000033.1"; gene_id "AVESA.00400a.r2.1Ag0000033";
+chr1A	EVM	intron	2858254	2858362	+	.	transcript_id "AVESA.00400a.r2.1Ag0000033.1"; gene_id "AVESA.00400a.r2.1Ag0000033";
+chr1A	EVM	CDS	2858363	2859130	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000033.1"; gene_id "AVESA.00400a.r2.1Ag0000033";
+chr1A	EVM	exon	2858363	2859130	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000033.1"; gene_id "AVESA.00400a.r2.1Ag0000033";
+chr1A	EVM	stop_codon	2859128	2859130	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000033.1"; gene_id "AVESA.00400a.r2.1Ag0000033";
+chr1A	EVM	gene	2908734	2909903	.	-	.	AVESA.00400a.r2.1Ag0000034
+chr1A	EVM	transcript	2908734	2909903	.	-	.	AVESA.00400a.r2.1Ag0000034.1
+chr1A	EVM	stop_codon	2908734	2908736	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000034.1"; gene_id "AVESA.00400a.r2.1Ag0000034";
+chr1A	EVM	CDS	2908734	2909024	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000034.1"; gene_id "AVESA.00400a.r2.1Ag0000034";
+chr1A	EVM	exon	2908734	2909024	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000034.1"; gene_id "AVESA.00400a.r2.1Ag0000034";
+chr1A	EVM	intron	2909025	2909165	-	.	transcript_id "AVESA.00400a.r2.1Ag0000034.1"; gene_id "AVESA.00400a.r2.1Ag0000034";
+chr1A	EVM	CDS	2909166	2909903	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000034.1"; gene_id "AVESA.00400a.r2.1Ag0000034";
+chr1A	EVM	exon	2909166	2909903	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000034.1"; gene_id "AVESA.00400a.r2.1Ag0000034";
+chr1A	EVM	start_codon	2909901	2909903	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000034.1"; gene_id "AVESA.00400a.r2.1Ag0000034";
+chr1A	EVM	gene	2994538	2996016	.	-	.	AVESA.00400a.r2.1Ag0000035
+chr1A	EVM	transcript	2994538	2996016	.	-	.	AVESA.00400a.r2.1Ag0000035.1
+chr1A	EVM	stop_codon	2994538	2994540	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000035.1"; gene_id "AVESA.00400a.r2.1Ag0000035";
+chr1A	EVM	CDS	2994538	2996016	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000035.1"; gene_id "AVESA.00400a.r2.1Ag0000035";
+chr1A	EVM	exon	2994538	2996016	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000035.1"; gene_id "AVESA.00400a.r2.1Ag0000035";
+chr1A	EVM	start_codon	2996014	2996016	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000035.1"; gene_id "AVESA.00400a.r2.1Ag0000035";
+chr1A	EVM	gene	3090171	3091835	.	+	.	AVESA.00400a.r2.1Ag0000036
+chr1A	EVM	transcript	3090171	3091835	.	+	.	AVESA.00400a.r2.1Ag0000036.1
+chr1A	EVM	start_codon	3090171	3090173	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000036.1"; gene_id "AVESA.00400a.r2.1Ag0000036";
+chr1A	EVM	CDS	3090171	3090883	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000036.1"; gene_id "AVESA.00400a.r2.1Ag0000036";
+chr1A	EVM	exon	3090171	3090883	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000036.1"; gene_id "AVESA.00400a.r2.1Ag0000036";
+chr1A	EVM	intron	3090884	3090994	+	.	transcript_id "AVESA.00400a.r2.1Ag0000036.1"; gene_id "AVESA.00400a.r2.1Ag0000036";
+chr1A	EVM	CDS	3090995	3091835	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000036.1"; gene_id "AVESA.00400a.r2.1Ag0000036";
+chr1A	EVM	exon	3090995	3091835	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000036.1"; gene_id "AVESA.00400a.r2.1Ag0000036";
+chr1A	EVM	stop_codon	3091833	3091835	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000036.1"; gene_id "AVESA.00400a.r2.1Ag0000036";
+chr1A	EVM	gene	3149036	3152417	.	+	.	AVESA.00400a.r2.1Ag0000037
+chr1A	EVM	transcript	3149036	3152417	.	+	.	AVESA.00400a.r2.1Ag0000037.1
+chr1A	EVM	start_codon	3149036	3149038	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	CDS	3149036	3149569	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	exon	3149036	3149569	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	CDS	3149658	3149914	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	exon	3149658	3149914	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	intron	3149570	3149657	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	CDS	3151509	3151893	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	exon	3151509	3151893	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	intron	3149915	3151508	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	intron	3151894	3151991	+	.	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	CDS	3151992	3152417	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	exon	3151992	3152417	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	stop_codon	3152415	3152417	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000037.1"; gene_id "AVESA.00400a.r2.1Ag0000037";
+chr1A	EVM	gene	3177060	3178853	.	-	.	AVESA.00400a.r2.1Ag0000038
+chr1A	EVM	transcript	3177060	3178853	.	-	.	AVESA.00400a.r2.1Ag0000038.1
+chr1A	EVM	stop_codon	3177060	3177062	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	CDS	3177060	3177485	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	exon	3177060	3177485	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	CDS	3177589	3177943	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	exon	3177589	3177943	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	intron	3177486	3177588	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	CDS	3178042	3178286	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	exon	3178042	3178286	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	intron	3177944	3178041	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	intron	3178287	3178376	-	.	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	CDS	3178377	3178853	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	exon	3178377	3178853	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	start_codon	3178851	3178853	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000038.1"; gene_id "AVESA.00400a.r2.1Ag0000038";
+chr1A	EVM	gene	3192627	3194170	.	+	.	AVESA.00400a.r2.1Ag0000039
+chr1A	EVM	transcript	3192627	3194170	.	+	.	AVESA.00400a.r2.1Ag0000039.1
+chr1A	EVM	start_codon	3192627	3192629	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000039.1"; gene_id "AVESA.00400a.r2.1Ag0000039";
+chr1A	EVM	CDS	3192627	3193298	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000039.1"; gene_id "AVESA.00400a.r2.1Ag0000039";
+chr1A	EVM	exon	3192627	3193298	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000039.1"; gene_id "AVESA.00400a.r2.1Ag0000039";
+chr1A	EVM	intron	3193299	3193423	+	.	transcript_id "AVESA.00400a.r2.1Ag0000039.1"; gene_id "AVESA.00400a.r2.1Ag0000039";
+chr1A	EVM	CDS	3193424	3194170	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000039.1"; gene_id "AVESA.00400a.r2.1Ag0000039";
+chr1A	EVM	exon	3193424	3194170	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000039.1"; gene_id "AVESA.00400a.r2.1Ag0000039";
+chr1A	EVM	stop_codon	3194168	3194170	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000039.1"; gene_id "AVESA.00400a.r2.1Ag0000039";
+chr1A	EVM	gene	3886083	3887567	.	-	.	AVESA.00400a.r2.1Ag0000040
+chr1A	EVM	transcript	3886083	3887567	.	-	.	AVESA.00400a.r2.1Ag0000040.1
+chr1A	EVM	stop_codon	3886083	3886085	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000040.1"; gene_id "AVESA.00400a.r2.1Ag0000040";
+chr1A	EVM	CDS	3886083	3887567	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000040.1"; gene_id "AVESA.00400a.r2.1Ag0000040";
+chr1A	EVM	exon	3886083	3887567	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000040.1"; gene_id "AVESA.00400a.r2.1Ag0000040";
+chr1A	EVM	start_codon	3887565	3887567	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000040.1"; gene_id "AVESA.00400a.r2.1Ag0000040";
+chr1A	EVM	gene	4192475	4195427	.	+	.	AVESA.00400a.r2.1Ag0000041
+chr1A	EVM	transcript	4192475	4195427	.	+	.	AVESA.00400a.r2.1Ag0000041.1
+chr1A	EVM	start_codon	4192475	4192477	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4192475	4192589	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4192475	4192589	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4192672	4192766	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4192672	4192766	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	intron	4192590	4192671	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4192877	4192968	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4192877	4192968	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	intron	4192767	4192876	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4193456	4193549	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4193456	4193549	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	intron	4192969	4193455	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4193630	4193702	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4193630	4193702	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	intron	4193550	4193629	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4193792	4193924	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4193792	4193924	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	intron	4193703	4193791	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4194060	4194234	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4194060	4194234	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	intron	4193925	4194059	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4194397	4194537	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4194397	4194537	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	intron	4194235	4194396	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4194607	4194702	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4194607	4194702	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	intron	4194538	4194606	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4194808	4194949	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4194808	4194949	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	intron	4194703	4194807	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4195042	4195169	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4195042	4195169	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	intron	4194950	4195041	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	intron	4195170	4195250	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	CDS	4195251	4195427	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	exon	4195251	4195427	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	stop_codon	4195425	4195427	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000041.1"; gene_id "AVESA.00400a.r2.1Ag0000041";
+chr1A	EVM	gene	4227930	4229167	.	+	.	AVESA.00400a.r2.1Ag0000042
+chr1A	EVM	transcript	4227930	4229167	.	+	.	AVESA.00400a.r2.1Ag0000042.1
+chr1A	EVM	start_codon	4227930	4227932	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000042.1"; gene_id "AVESA.00400a.r2.1Ag0000042";
+chr1A	EVM	CDS	4227930	4228718	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000042.1"; gene_id "AVESA.00400a.r2.1Ag0000042";
+chr1A	EVM	exon	4227930	4228718	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000042.1"; gene_id "AVESA.00400a.r2.1Ag0000042";
+chr1A	EVM	intron	4228719	4228840	+	.	transcript_id "AVESA.00400a.r2.1Ag0000042.1"; gene_id "AVESA.00400a.r2.1Ag0000042";
+chr1A	EVM	CDS	4228841	4229167	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000042.1"; gene_id "AVESA.00400a.r2.1Ag0000042";
+chr1A	EVM	exon	4228841	4229167	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000042.1"; gene_id "AVESA.00400a.r2.1Ag0000042";
+chr1A	EVM	stop_codon	4229165	4229167	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000042.1"; gene_id "AVESA.00400a.r2.1Ag0000042";
+chr1A	EVM	gene	4322698	4323465	.	+	.	AVESA.00400a.r2.1Ag0000043
+chr1A	EVM	transcript	4322698	4323465	.	+	.	AVESA.00400a.r2.1Ag0000043.1
+chr1A	EVM	start_codon	4322698	4322700	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	CDS	4322698	4322800	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	exon	4322698	4322800	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	CDS	4322897	4322998	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	exon	4322897	4322998	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	intron	4322801	4322896	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	CDS	4323100	4323260	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	exon	4323100	4323260	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	intron	4322999	4323099	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	intron	4323261	4323336	+	.	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	CDS	4323337	4323465	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	exon	4323337	4323465	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	stop_codon	4323463	4323465	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000043.1"; gene_id "AVESA.00400a.r2.1Ag0000043";
+chr1A	EVM	gene	4409652	4411614	.	-	.	AVESA.00400a.r2.1Ag0000044
+chr1A	EVM	transcript	4409652	4411614	.	-	.	AVESA.00400a.r2.1Ag0000044.1
+chr1A	EVM	stop_codon	4409652	4409654	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	CDS	4409652	4409726	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	exon	4409652	4409726	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	CDS	4410061	4410147	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	exon	4410061	4410147	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	intron	4409727	4410060	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	CDS	4410248	4410366	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	exon	4410248	4410366	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	intron	4410148	4410247	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	intron	4410367	4410455	-	.	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	CDS	4410456	4411614	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	exon	4410456	4411614	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	start_codon	4411612	4411614	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000044.1"; gene_id "AVESA.00400a.r2.1Ag0000044";
+chr1A	EVM	gene	4488303	4490245	.	-	.	AVESA.00400a.r2.1Ag0000045
+chr1A	EVM	transcript	4488303	4490245	.	-	.	AVESA.00400a.r2.1Ag0000045.1
+chr1A	EVM	stop_codon	4488303	4488305	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000045.1"; gene_id "AVESA.00400a.r2.1Ag0000045";
+chr1A	EVM	CDS	4488303	4489592	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000045.1"; gene_id "AVESA.00400a.r2.1Ag0000045";
+chr1A	EVM	exon	4488303	4489592	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000045.1"; gene_id "AVESA.00400a.r2.1Ag0000045";
+chr1A	EVM	CDS	4489804	4490021	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000045.1"; gene_id "AVESA.00400a.r2.1Ag0000045";
+chr1A	EVM	exon	4489804	4490021	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000045.1"; gene_id "AVESA.00400a.r2.1Ag0000045";
+chr1A	EVM	intron	4489593	4489803	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000045.1"; gene_id "AVESA.00400a.r2.1Ag0000045";
+chr1A	EVM	intron	4490022	4490112	-	.	transcript_id "AVESA.00400a.r2.1Ag0000045.1"; gene_id "AVESA.00400a.r2.1Ag0000045";
+chr1A	EVM	CDS	4490113	4490245	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000045.1"; gene_id "AVESA.00400a.r2.1Ag0000045";
+chr1A	EVM	exon	4490113	4490245	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000045.1"; gene_id "AVESA.00400a.r2.1Ag0000045";
+chr1A	EVM	start_codon	4490243	4490245	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000045.1"; gene_id "AVESA.00400a.r2.1Ag0000045";
+chr1A	EVM	gene	4496339	4497826	.	-	.	AVESA.00400a.r2.1Ag0000046
+chr1A	EVM	transcript	4496339	4497826	.	-	.	AVESA.00400a.r2.1Ag0000046.1
+chr1A	EVM	stop_codon	4496339	4496341	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000046.1"; gene_id "AVESA.00400a.r2.1Ag0000046";
+chr1A	EVM	CDS	4496339	4497826	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000046.1"; gene_id "AVESA.00400a.r2.1Ag0000046";
+chr1A	EVM	exon	4496339	4497826	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000046.1"; gene_id "AVESA.00400a.r2.1Ag0000046";
+chr1A	EVM	start_codon	4497824	4497826	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000046.1"; gene_id "AVESA.00400a.r2.1Ag0000046";
+chr1A	EVM	gene	4516373	4526238	.	-	.	AVESA.00400a.r2.1Ag0000047
+chr1A	EVM	transcript	4516373	4526238	.	-	.	AVESA.00400a.r2.1Ag0000047.1
+chr1A	EVM	stop_codon	4516373	4516375	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4516373	4516468	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4516373	4516468	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4516597	4516704	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4516597	4516704	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	intron	4516469	4516596	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4516815	4516981	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4516815	4516981	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	intron	4516705	4516814	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4517079	4517205	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4517079	4517205	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	intron	4516982	4517078	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4517292	4517453	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4517292	4517453	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	intron	4517206	4517291	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4517641	4517804	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4517641	4517804	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	intron	4517454	4517640	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4517914	4518007	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4517914	4518007	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	intron	4517805	4517913	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4518088	4518212	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4518088	4518212	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	intron	4518008	4518087	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4525503	4525648	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4525503	4525648	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	intron	4518213	4525502	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4525763	4525851	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4525763	4525851	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	intron	4525649	4525762	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4525960	4526025	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4525960	4526025	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	intron	4525852	4525959	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	intron	4526026	4526112	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	CDS	4526113	4526238	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	exon	4526113	4526238	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	start_codon	4526236	4526238	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000047.1"; gene_id "AVESA.00400a.r2.1Ag0000047";
+chr1A	EVM	gene	4640995	4647213	.	-	.	AVESA.00400a.r2.1Ag0000048
+chr1A	EVM	transcript	4640995	4647213	.	-	.	AVESA.00400a.r2.1Ag0000048.1
+chr1A	EVM	stop_codon	4640995	4640997	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	CDS	4640995	4642750	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	exon	4640995	4642750	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	CDS	4642926	4643034	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	exon	4642926	4643034	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	intron	4642751	4642925	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	CDS	4643128	4643292	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	exon	4643128	4643292	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	intron	4643035	4643127	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	CDS	4643682	4643779	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	exon	4643682	4643779	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	intron	4643293	4643681	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	CDS	4643891	4644000	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	exon	4643891	4644000	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	intron	4643780	4643890	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	intron	4644001	4647144	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	CDS	4647145	4647213	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	exon	4647145	4647213	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	start_codon	4647211	4647213	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000048.1"; gene_id "AVESA.00400a.r2.1Ag0000048";
+chr1A	EVM	gene	5164033	5165340	.	+	.	AVESA.00400a.r2.1Ag0000049
+chr1A	EVM	transcript	5164033	5165340	.	+	.	AVESA.00400a.r2.1Ag0000049.1
+chr1A	EVM	start_codon	5164033	5164035	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000049.1"; gene_id "AVESA.00400a.r2.1Ag0000049";
+chr1A	EVM	CDS	5164033	5165340	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000049.1"; gene_id "AVESA.00400a.r2.1Ag0000049";
+chr1A	EVM	exon	5164033	5165340	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000049.1"; gene_id "AVESA.00400a.r2.1Ag0000049";
+chr1A	EVM	stop_codon	5165338	5165340	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000049.1"; gene_id "AVESA.00400a.r2.1Ag0000049";
+chr1A	EVM	gene	5171767	5174297	.	+	.	AVESA.00400a.r2.1Ag0000050
+chr1A	EVM	transcript	5171767	5174297	.	+	.	AVESA.00400a.r2.1Ag0000050.1
+chr1A	EVM	start_codon	5171767	5171769	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	CDS	5171767	5171901	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	exon	5171767	5171901	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	CDS	5171978	5172100	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	exon	5171978	5172100	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	intron	5171902	5171977	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	CDS	5172208	5172355	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	exon	5172208	5172355	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	intron	5172101	5172207	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	CDS	5172527	5172614	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	exon	5172527	5172614	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	intron	5172356	5172526	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	CDS	5172718	5173307	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	exon	5172718	5173307	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	intron	5172615	5172717	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	CDS	5173407	5173429	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	exon	5173407	5173429	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	intron	5173308	5173406	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	CDS	5173534	5173627	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	exon	5173534	5173627	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	intron	5173430	5173533	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	CDS	5173778	5173880	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	exon	5173778	5173880	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	intron	5173628	5173777	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	intron	5173881	5174074	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	CDS	5174075	5174297	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	exon	5174075	5174297	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	stop_codon	5174295	5174297	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000050.1"; gene_id "AVESA.00400a.r2.1Ag0000050";
+chr1A	EVM	gene	5188070	5191110	.	+	.	AVESA.00400a.r2.1Ag0000051
+chr1A	EVM	transcript	5188070	5191110	.	+	.	AVESA.00400a.r2.1Ag0000051.1
+chr1A	EVM	start_codon	5188070	5188072	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	CDS	5188070	5188105	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	exon	5188070	5188105	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	CDS	5189217	5189320	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	exon	5189217	5189320	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	intron	5188106	5189216	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	CDS	5189434	5189509	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	exon	5189434	5189509	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	intron	5189321	5189433	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	CDS	5190006	5190086	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	exon	5190006	5190086	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	intron	5189510	5190005	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	intron	5190087	5190600	+	.	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	CDS	5190601	5191110	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	exon	5190601	5191110	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	stop_codon	5191108	5191110	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000051.1"; gene_id "AVESA.00400a.r2.1Ag0000051";
+chr1A	EVM	gene	5247076	5248470	.	+	.	AVESA.00400a.r2.1Ag0000052
+chr1A	EVM	transcript	5247076	5248470	.	+	.	AVESA.00400a.r2.1Ag0000052.1
+chr1A	EVM	start_codon	5247076	5247078	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000052.1"; gene_id "AVESA.00400a.r2.1Ag0000052";
+chr1A	EVM	CDS	5247076	5247341	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000052.1"; gene_id "AVESA.00400a.r2.1Ag0000052";
+chr1A	EVM	exon	5247076	5247341	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000052.1"; gene_id "AVESA.00400a.r2.1Ag0000052";
+chr1A	EVM	CDS	5247431	5248210	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000052.1"; gene_id "AVESA.00400a.r2.1Ag0000052";
+chr1A	EVM	exon	5247431	5248210	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000052.1"; gene_id "AVESA.00400a.r2.1Ag0000052";
+chr1A	EVM	intron	5247342	5247430	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000052.1"; gene_id "AVESA.00400a.r2.1Ag0000052";
+chr1A	EVM	intron	5248211	5248436	+	.	transcript_id "AVESA.00400a.r2.1Ag0000052.1"; gene_id "AVESA.00400a.r2.1Ag0000052";
+chr1A	EVM	CDS	5248437	5248470	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000052.1"; gene_id "AVESA.00400a.r2.1Ag0000052";
+chr1A	EVM	exon	5248437	5248470	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000052.1"; gene_id "AVESA.00400a.r2.1Ag0000052";
+chr1A	EVM	stop_codon	5248468	5248470	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000052.1"; gene_id "AVESA.00400a.r2.1Ag0000052";
+chr1A	EVM	gene	5253645	5273648	.	-	.	AVESA.00400a.r2.1Ag0000053
+chr1A	EVM	transcript	5253645	5273648	.	-	.	AVESA.00400a.r2.1Ag0000053.1
+chr1A	EVM	stop_codon	5253645	5253647	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5253645	5253881	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5253645	5253881	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5253986	5254168	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5253986	5254168	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5253882	5253985	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5254260	5254310	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5254260	5254310	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5254169	5254259	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5254685	5254804	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5254685	5254804	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5254311	5254684	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5254912	5255014	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5254912	5255014	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5254805	5254911	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5255269	5255427	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5255269	5255427	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5255015	5255268	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5256182	5256270	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5256182	5256270	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5255428	5256181	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5256342	5256455	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5256342	5256455	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5256271	5256341	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5256531	5256689	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5256531	5256689	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5256456	5256530	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5256796	5256843	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5256796	5256843	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5256690	5256795	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5257335	5257511	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5257335	5257511	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5256844	5257334	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5257955	5258007	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5257955	5258007	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5257512	5257954	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5258415	5258527	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5258415	5258527	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5258008	5258414	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5258695	5258775	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5258695	5258775	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5258528	5258694	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5258863	5258978	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5258863	5258978	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5258776	5258862	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5259615	5259734	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5259615	5259734	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5258979	5259614	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5260263	5260380	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5260263	5260380	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5259735	5260262	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5260604	5260704	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5260604	5260704	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5260381	5260603	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5260857	5260927	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5260857	5260927	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5260705	5260856	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5261097	5261228	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5261097	5261228	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5260928	5261096	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5261803	5261912	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5261803	5261912	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5261229	5261802	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5261990	5262150	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5261990	5262150	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5261913	5261989	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5262420	5262510	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5262420	5262510	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5262151	5262419	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5262606	5262703	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5262606	5262703	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5262511	5262605	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5262843	5262963	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5262843	5262963	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5262704	5262842	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5263079	5263239	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5263079	5263239	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5262964	5263078	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5263352	5263433	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5263352	5263433	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5263240	5263351	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5263510	5263604	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5263510	5263604	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5263434	5263509	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5264123	5264147	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5264123	5264147	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5263605	5264122	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5264269	5264345	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5264269	5264345	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5264148	5264268	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5264421	5264507	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5264421	5264507	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5264346	5264420	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5264596	5264645	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5264596	5264645	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5264508	5264595	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5264812	5264893	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5264812	5264893	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5264646	5264811	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5264984	5265044	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5264984	5265044	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5264894	5264983	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5265301	5265353	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5265301	5265353	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5265045	5265300	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5265444	5265633	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5265444	5265633	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5265354	5265443	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5265724	5265847	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5265724	5265847	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5265634	5265723	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5266014	5266116	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5266014	5266116	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5265848	5266013	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5266216	5266308	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5266216	5266308	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5266117	5266215	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5266900	5266978	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5266900	5266978	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5266309	5266899	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5267068	5267144	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5267068	5267144	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5266979	5267067	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5267538	5267666	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5267538	5267666	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5267145	5267537	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5268266	5268383	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5268266	5268383	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5267667	5268265	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5268468	5268565	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5268468	5268565	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5268384	5268467	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5269395	5269484	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5269395	5269484	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5268566	5269394	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5271214	5271333	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5271214	5271333	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5269485	5271213	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5271434	5271544	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5271434	5271544	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5271334	5271433	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5271722	5271845	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5271722	5271845	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5271545	5271721	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5272158	5272312	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5272158	5272312	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5271846	5272157	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5272413	5272510	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5272413	5272510	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5272313	5272412	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	intron	5272511	5273371	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	CDS	5273372	5273648	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	exon	5273372	5273648	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	start_codon	5273646	5273648	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000053.1"; gene_id "AVESA.00400a.r2.1Ag0000053";
+chr1A	EVM	gene	5363023	5363352	.	-	.	AVESA.00400a.r2.1Ag0000054
+chr1A	EVM	transcript	5363023	5363352	.	-	.	AVESA.00400a.r2.1Ag0000054.1
+chr1A	EVM	stop_codon	5363023	5363025	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000054.1"; gene_id "AVESA.00400a.r2.1Ag0000054";
+chr1A	EVM	CDS	5363023	5363352	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000054.1"; gene_id "AVESA.00400a.r2.1Ag0000054";
+chr1A	EVM	exon	5363023	5363352	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000054.1"; gene_id "AVESA.00400a.r2.1Ag0000054";
+chr1A	EVM	start_codon	5363350	5363352	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000054.1"; gene_id "AVESA.00400a.r2.1Ag0000054";
+chr1A	EVM	gene	5365814	5367360	.	+	.	AVESA.00400a.r2.1Ag0000055
+chr1A	EVM	transcript	5365814	5367360	.	+	.	AVESA.00400a.r2.1Ag0000055.1
+chr1A	EVM	start_codon	5365814	5365816	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	CDS	5365814	5365936	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	exon	5365814	5365936	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	CDS	5366045	5366108	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	exon	5366045	5366108	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	intron	5365937	5366044	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	CDS	5366568	5366594	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	exon	5366568	5366594	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	intron	5366109	5366567	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	CDS	5366964	5367072	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	exon	5366964	5367072	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	intron	5366595	5366963	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	intron	5367073	5367239	+	.	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	CDS	5367240	5367360	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	exon	5367240	5367360	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	stop_codon	5367358	5367360	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000055.1"; gene_id "AVESA.00400a.r2.1Ag0000055";
+chr1A	EVM	gene	5372959	5377730	.	+	.	AVESA.00400a.r2.1Ag0000056
+chr1A	EVM	transcript	5372959	5377730	.	+	.	AVESA.00400a.r2.1Ag0000056.1
+chr1A	EVM	start_codon	5372959	5372961	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5372959	5373177	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5372959	5373177	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5373521	5373591	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5373521	5373591	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5373178	5373520	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5373731	5373745	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5373731	5373745	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5373592	5373730	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5373899	5374010	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5373899	5374010	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5373746	5373898	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5374705	5374804	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5374705	5374804	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5374011	5374704	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5374968	5375030	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5374968	5375030	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5374805	5374967	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5375474	5375584	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5375474	5375584	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5375031	5375473	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5375665	5375849	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5375665	5375849	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5375585	5375664	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5376076	5376214	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5376076	5376214	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5375850	5376075	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5376643	5376760	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5376643	5376760	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5376215	5376642	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5376847	5376948	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5376847	5376948	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5376761	5376846	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5377101	5377352	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5377101	5377352	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5376949	5377100	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5377451	5377562	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5377451	5377562	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5377353	5377450	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	intron	5377563	5377700	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	CDS	5377701	5377730	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	exon	5377701	5377730	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	stop_codon	5377728	5377730	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000056.1"; gene_id "AVESA.00400a.r2.1Ag0000056";
+chr1A	EVM	gene	5378628	5381137	.	-	.	AVESA.00400a.r2.1Ag0000057
+chr1A	EVM	transcript	5378628	5381137	.	-	.	AVESA.00400a.r2.1Ag0000057.1
+chr1A	EVM	stop_codon	5378628	5378630	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	CDS	5378628	5378860	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	exon	5378628	5378860	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	CDS	5379004	5379159	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	exon	5379004	5379159	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	intron	5378861	5379003	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	CDS	5379872	5379965	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	exon	5379872	5379965	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	intron	5379160	5379871	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	CDS	5380610	5380777	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	exon	5380610	5380777	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	intron	5379966	5380609	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	intron	5380778	5380909	-	.	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	CDS	5380910	5381137	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	exon	5380910	5381137	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	start_codon	5381135	5381137	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000057.1"; gene_id "AVESA.00400a.r2.1Ag0000057";
+chr1A	EVM	gene	5440266	5447225	.	-	.	AVESA.00400a.r2.1Ag0000058
+chr1A	EVM	transcript	5440266	5447225	.	-	.	AVESA.00400a.r2.1Ag0000058.1
+chr1A	EVM	stop_codon	5440266	5440268	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	CDS	5440266	5440380	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	exon	5440266	5440380	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	CDS	5440468	5440589	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	exon	5440468	5440589	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	intron	5440381	5440467	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	CDS	5440679	5440785	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	exon	5440679	5440785	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	intron	5440590	5440678	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	CDS	5440882	5440960	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	exon	5440882	5440960	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	intron	5440786	5440881	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	CDS	5441074	5441163	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	exon	5441074	5441163	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	intron	5440961	5441073	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	CDS	5441242	5441983	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	exon	5441242	5441983	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	intron	5441164	5441241	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	intron	5441984	5446998	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	CDS	5446999	5447225	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	exon	5446999	5447225	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	start_codon	5447223	5447225	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000058.1"; gene_id "AVESA.00400a.r2.1Ag0000058";
+chr1A	EVM	gene	5569302	5571736	.	-	.	AVESA.00400a.r2.1Ag0000059
+chr1A	EVM	transcript	5569302	5571736	.	-	.	AVESA.00400a.r2.1Ag0000059.1
+chr1A	EVM	stop_codon	5569302	5569304	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	CDS	5569302	5569553	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	exon	5569302	5569553	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	CDS	5569651	5569786	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	exon	5569651	5569786	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	intron	5569554	5569650	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	CDS	5569880	5570098	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	exon	5569880	5570098	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	intron	5569787	5569879	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	CDS	5571019	5571391	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	exon	5571019	5571391	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	intron	5570099	5571018	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	intron	5571392	5571495	-	.	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	CDS	5571496	5571736	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	exon	5571496	5571736	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	start_codon	5571734	5571736	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000059.1"; gene_id "AVESA.00400a.r2.1Ag0000059";
+chr1A	EVM	gene	5645870	5646583	.	+	.	AVESA.00400a.r2.1Ag0000060
+chr1A	EVM	transcript	5645870	5646583	.	+	.	AVESA.00400a.r2.1Ag0000060.1
+chr1A	EVM	start_codon	5645870	5645872	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000060.1"; gene_id "AVESA.00400a.r2.1Ag0000060";
+chr1A	EVM	CDS	5645870	5646583	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000060.1"; gene_id "AVESA.00400a.r2.1Ag0000060";
+chr1A	EVM	exon	5645870	5646583	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000060.1"; gene_id "AVESA.00400a.r2.1Ag0000060";
+chr1A	EVM	stop_codon	5646581	5646583	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000060.1"; gene_id "AVESA.00400a.r2.1Ag0000060";
+chr1A	EVM	gene	5659915	5664783	.	+	.	AVESA.00400a.r2.1Ag0000061
+chr1A	EVM	transcript	5659915	5664783	.	+	.	AVESA.00400a.r2.1Ag0000061.1
+chr1A	EVM	start_codon	5659915	5659917	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000061.1"; gene_id "AVESA.00400a.r2.1Ag0000061";
+chr1A	EVM	CDS	5659915	5660278	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000061.1"; gene_id "AVESA.00400a.r2.1Ag0000061";
+chr1A	EVM	exon	5659915	5660278	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000061.1"; gene_id "AVESA.00400a.r2.1Ag0000061";
+chr1A	EVM	intron	5660279	5664490	+	.	transcript_id "AVESA.00400a.r2.1Ag0000061.1"; gene_id "AVESA.00400a.r2.1Ag0000061";
+chr1A	EVM	CDS	5664491	5664783	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000061.1"; gene_id "AVESA.00400a.r2.1Ag0000061";
+chr1A	EVM	exon	5664491	5664783	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000061.1"; gene_id "AVESA.00400a.r2.1Ag0000061";
+chr1A	EVM	stop_codon	5664781	5664783	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000061.1"; gene_id "AVESA.00400a.r2.1Ag0000061";
+chr1A	EVM	gene	5668675	5669064	.	+	.	AVESA.00400a.r2.1Ag0000062
+chr1A	EVM	transcript	5668675	5669064	.	+	.	AVESA.00400a.r2.1Ag0000062.1
+chr1A	EVM	start_codon	5668675	5668677	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000062.1"; gene_id "AVESA.00400a.r2.1Ag0000062";
+chr1A	EVM	CDS	5668675	5669064	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000062.1"; gene_id "AVESA.00400a.r2.1Ag0000062";
+chr1A	EVM	exon	5668675	5669064	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000062.1"; gene_id "AVESA.00400a.r2.1Ag0000062";
+chr1A	EVM	stop_codon	5669062	5669064	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000062.1"; gene_id "AVESA.00400a.r2.1Ag0000062";
+chr1A	EVM	gene	5673183	5673818	.	+	.	AVESA.00400a.r2.1Ag0000063
+chr1A	EVM	transcript	5673183	5673818	.	+	.	AVESA.00400a.r2.1Ag0000063.1
+chr1A	EVM	start_codon	5673183	5673185	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000063.1"; gene_id "AVESA.00400a.r2.1Ag0000063";
+chr1A	EVM	CDS	5673183	5673818	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000063.1"; gene_id "AVESA.00400a.r2.1Ag0000063";
+chr1A	EVM	exon	5673183	5673818	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000063.1"; gene_id "AVESA.00400a.r2.1Ag0000063";
+chr1A	EVM	stop_codon	5673816	5673818	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000063.1"; gene_id "AVESA.00400a.r2.1Ag0000063";
+chr1A	EVM	gene	5683153	5684043	.	+	.	AVESA.00400a.r2.1Ag0000064
+chr1A	EVM	transcript	5683153	5684043	.	+	.	AVESA.00400a.r2.1Ag0000064.1
+chr1A	EVM	start_codon	5683153	5683155	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000064.1"; gene_id "AVESA.00400a.r2.1Ag0000064";
+chr1A	EVM	CDS	5683153	5684043	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000064.1"; gene_id "AVESA.00400a.r2.1Ag0000064";
+chr1A	EVM	exon	5683153	5684043	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000064.1"; gene_id "AVESA.00400a.r2.1Ag0000064";
+chr1A	EVM	stop_codon	5684041	5684043	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000064.1"; gene_id "AVESA.00400a.r2.1Ag0000064";
+chr1A	EVM	gene	5703500	5704093	.	+	.	AVESA.00400a.r2.1Ag0000065
+chr1A	EVM	transcript	5703500	5704093	.	+	.	AVESA.00400a.r2.1Ag0000065.1
+chr1A	EVM	start_codon	5703500	5703502	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000065.1"; gene_id "AVESA.00400a.r2.1Ag0000065";
+chr1A	EVM	CDS	5703500	5704093	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000065.1"; gene_id "AVESA.00400a.r2.1Ag0000065";
+chr1A	EVM	exon	5703500	5704093	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000065.1"; gene_id "AVESA.00400a.r2.1Ag0000065";
+chr1A	EVM	stop_codon	5704091	5704093	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000065.1"; gene_id "AVESA.00400a.r2.1Ag0000065";
+chr1A	EVM	gene	5736785	5737557	.	+	.	AVESA.00400a.r2.1Ag0000066
+chr1A	EVM	transcript	5736785	5737557	.	+	.	AVESA.00400a.r2.1Ag0000066.1
+chr1A	EVM	start_codon	5736785	5736787	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000066.1"; gene_id "AVESA.00400a.r2.1Ag0000066";
+chr1A	EVM	CDS	5736785	5736895	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000066.1"; gene_id "AVESA.00400a.r2.1Ag0000066";
+chr1A	EVM	exon	5736785	5736895	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000066.1"; gene_id "AVESA.00400a.r2.1Ag0000066";
+chr1A	EVM	intron	5736896	5736966	+	.	transcript_id "AVESA.00400a.r2.1Ag0000066.1"; gene_id "AVESA.00400a.r2.1Ag0000066";
+chr1A	EVM	CDS	5736967	5737557	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000066.1"; gene_id "AVESA.00400a.r2.1Ag0000066";
+chr1A	EVM	exon	5736967	5737557	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000066.1"; gene_id "AVESA.00400a.r2.1Ag0000066";
+chr1A	EVM	stop_codon	5737555	5737557	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000066.1"; gene_id "AVESA.00400a.r2.1Ag0000066";
+chr1A	EVM	gene	5765887	5766915	.	-	.	AVESA.00400a.r2.1Ag0000067
+chr1A	EVM	transcript	5765887	5766915	.	-	.	AVESA.00400a.r2.1Ag0000067.1
+chr1A	EVM	stop_codon	5765887	5765889	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000067.1"; gene_id "AVESA.00400a.r2.1Ag0000067";
+chr1A	EVM	CDS	5765887	5766224	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000067.1"; gene_id "AVESA.00400a.r2.1Ag0000067";
+chr1A	EVM	exon	5765887	5766224	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000067.1"; gene_id "AVESA.00400a.r2.1Ag0000067";
+chr1A	EVM	intron	5766225	5766863	-	.	transcript_id "AVESA.00400a.r2.1Ag0000067.1"; gene_id "AVESA.00400a.r2.1Ag0000067";
+chr1A	EVM	CDS	5766864	5766915	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000067.1"; gene_id "AVESA.00400a.r2.1Ag0000067";
+chr1A	EVM	exon	5766864	5766915	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000067.1"; gene_id "AVESA.00400a.r2.1Ag0000067";
+chr1A	EVM	start_codon	5766913	5766915	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000067.1"; gene_id "AVESA.00400a.r2.1Ag0000067";
+chr1A	EVM	gene	5789535	5793301	.	-	.	AVESA.00400a.r2.1Ag0000068
+chr1A	EVM	transcript	5789535	5793301	.	-	.	AVESA.00400a.r2.1Ag0000068.1
+chr1A	EVM	stop_codon	5789535	5789537	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5789535	5789678	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5789535	5789678	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5789970	5790046	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5789970	5790046	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	intron	5789679	5789969	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5790248	5790334	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5790248	5790334	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	intron	5790047	5790247	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5790430	5790529	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5790430	5790529	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	intron	5790335	5790429	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5790850	5790945	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5790850	5790945	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	intron	5790530	5790849	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5791075	5791144	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5791075	5791144	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	intron	5790946	5791074	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5791240	5791330	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5791240	5791330	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	intron	5791145	5791239	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5791491	5791560	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5791491	5791560	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	intron	5791331	5791490	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5791663	5791799	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5791663	5791799	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	intron	5791561	5791662	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5792043	5792195	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5792043	5792195	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	intron	5791800	5792042	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5792755	5792803	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5792755	5792803	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	intron	5792196	5792754	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	intron	5792804	5793112	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	CDS	5793113	5793301	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	exon	5793113	5793301	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	start_codon	5793299	5793301	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000068.1"; gene_id "AVESA.00400a.r2.1Ag0000068";
+chr1A	EVM	gene	5842800	5847218	.	+	.	AVESA.00400a.r2.1Ag0000069
+chr1A	EVM	transcript	5842800	5847218	.	+	.	AVESA.00400a.r2.1Ag0000069.1
+chr1A	EVM	start_codon	5842800	5842802	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5842800	5842937	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5842800	5842937	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5843040	5843182	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5843040	5843182	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5842938	5843039	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5843417	5843711	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5843417	5843711	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5843183	5843416	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5843806	5843975	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5843806	5843975	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5843712	5843805	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5844067	5844133	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5844067	5844133	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5843976	5844066	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5844230	5844330	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5844230	5844330	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5844134	5844229	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5844791	5844942	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5844791	5844942	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5844331	5844790	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5845245	5845471	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5845245	5845471	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5844943	5845244	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5845559	5845732	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5845559	5845732	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5845472	5845558	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5845830	5845967	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5845830	5845967	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5845733	5845829	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5846196	5846374	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5846196	5846374	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5845968	5846195	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5846470	5846581	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5846470	5846581	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5846375	5846469	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	intron	5846582	5847059	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	CDS	5847060	5847218	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	exon	5847060	5847218	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	stop_codon	5847216	5847218	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000069.1"; gene_id "AVESA.00400a.r2.1Ag0000069";
+chr1A	EVM	gene	5862170	5862535	.	+	.	AVESA.00400a.r2.1Ag0000070
+chr1A	EVM	transcript	5862170	5862535	.	+	.	AVESA.00400a.r2.1Ag0000070.1
+chr1A	EVM	start_codon	5862170	5862172	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000070.1"; gene_id "AVESA.00400a.r2.1Ag0000070";
+chr1A	EVM	CDS	5862170	5862535	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000070.1"; gene_id "AVESA.00400a.r2.1Ag0000070";
+chr1A	EVM	exon	5862170	5862535	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000070.1"; gene_id "AVESA.00400a.r2.1Ag0000070";
+chr1A	EVM	stop_codon	5862533	5862535	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000070.1"; gene_id "AVESA.00400a.r2.1Ag0000070";
+chr1A	EVM	gene	6279688	6280899	.	+	.	AVESA.00400a.r2.1Ag0000071
+chr1A	EVM	transcript	6279688	6280899	.	+	.	AVESA.00400a.r2.1Ag0000071.1
+chr1A	EVM	start_codon	6279688	6279690	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000071.1"; gene_id "AVESA.00400a.r2.1Ag0000071";
+chr1A	EVM	CDS	6279688	6280899	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000071.1"; gene_id "AVESA.00400a.r2.1Ag0000071";
+chr1A	EVM	exon	6279688	6280899	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000071.1"; gene_id "AVESA.00400a.r2.1Ag0000071";
+chr1A	EVM	stop_codon	6280897	6280899	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000071.1"; gene_id "AVESA.00400a.r2.1Ag0000071";
+chr1A	EVM	gene	6690710	6701261	.	-	.	AVESA.00400a.r2.1Ag0000072
+chr1A	EVM	transcript	6690710	6701261	.	-	.	AVESA.00400a.r2.1Ag0000072.1
+chr1A	EVM	stop_codon	6690710	6690712	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6690710	6690817	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6690710	6690817	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6690924	6691035	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6690924	6691035	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6690818	6690923	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6691130	6691305	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6691130	6691305	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6691036	6691129	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6691672	6691809	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6691672	6691809	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6691306	6691671	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6691910	6692083	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6691910	6692083	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6691810	6691909	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6692200	6692426	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6692200	6692426	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6692084	6692199	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6692727	6692872	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6692727	6692872	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6692427	6692726	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6693303	6693403	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6693303	6693403	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6692873	6693302	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6693501	6693567	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6693501	6693567	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6693404	6693500	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6693655	6693824	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6693655	6693824	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6693568	6693654	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6693922	6695793	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6693922	6695793	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6693825	6693921	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6698321	6698458	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6698321	6698458	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6695794	6698320	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6698910	6699065	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6698910	6699065	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6698459	6698909	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6699780	6700040	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6699780	6700040	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6699066	6699779	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6700115	6700159	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6700115	6700159	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6700041	6700114	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6700649	6700773	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6700649	6700773	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6700160	6700648	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6700860	6700980	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6700860	6700980	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6700774	6700859	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6701058	6701142	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6701058	6701142	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6700981	6701057	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	intron	6701143	6701229	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	CDS	6701230	6701261	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	exon	6701230	6701261	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	start_codon	6701259	6701261	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000072.1"; gene_id "AVESA.00400a.r2.1Ag0000072";
+chr1A	EVM	gene	6817712	6821431	.	-	.	AVESA.00400a.r2.1Ag0000073
+chr1A	EVM	transcript	6817712	6821431	.	-	.	AVESA.00400a.r2.1Ag0000073.1
+chr1A	EVM	stop_codon	6817712	6817714	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	CDS	6817712	6817858	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	exon	6817712	6817858	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	CDS	6817950	6818055	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	exon	6817950	6818055	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	intron	6817859	6817949	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	CDS	6818232	6818327	.	-	1	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	exon	6818232	6818327	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	intron	6818056	6818231	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	CDS	6818405	6818562	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	exon	6818405	6818562	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	intron	6818328	6818404	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	CDS	6818637	6818909	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	exon	6818637	6818909	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	intron	6818563	6818636	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	CDS	6819113	6819201	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	exon	6819113	6819201	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	intron	6818910	6819112	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	CDS	6820023	6820115	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	exon	6820023	6820115	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	intron	6819202	6820022	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	CDS	6820226	6820321	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	exon	6820226	6820321	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	intron	6820116	6820225	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	CDS	6820432	6820539	.	-	2	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	exon	6820432	6820539	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	intron	6820322	6820431	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	intron	6820540	6821181	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	CDS	6821182	6821431	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	exon	6821182	6821431	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	start_codon	6821429	6821431	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000073.1"; gene_id "AVESA.00400a.r2.1Ag0000073";
+chr1A	EVM	gene	6919930	6924842	.	+	.	AVESA.00400a.r2.1Ag0000074
+chr1A	EVM	transcript	6919930	6924842	.	+	.	AVESA.00400a.r2.1Ag0000074.1
+chr1A	EVM	start_codon	6919930	6919932	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000074.1"; gene_id "AVESA.00400a.r2.1Ag0000074";
+chr1A	EVM	CDS	6919930	6920345	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000074.1"; gene_id "AVESA.00400a.r2.1Ag0000074";
+chr1A	EVM	exon	6919930	6920345	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000074.1"; gene_id "AVESA.00400a.r2.1Ag0000074";
+chr1A	EVM	CDS	6923789	6924218	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000074.1"; gene_id "AVESA.00400a.r2.1Ag0000074";
+chr1A	EVM	exon	6923789	6924218	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000074.1"; gene_id "AVESA.00400a.r2.1Ag0000074";
+chr1A	EVM	intron	6920346	6923788	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000074.1"; gene_id "AVESA.00400a.r2.1Ag0000074";
+chr1A	EVM	intron	6924219	6924569	+	.	transcript_id "AVESA.00400a.r2.1Ag0000074.1"; gene_id "AVESA.00400a.r2.1Ag0000074";
+chr1A	EVM	CDS	6924570	6924842	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000074.1"; gene_id "AVESA.00400a.r2.1Ag0000074";
+chr1A	EVM	exon	6924570	6924842	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000074.1"; gene_id "AVESA.00400a.r2.1Ag0000074";
+chr1A	EVM	stop_codon	6924840	6924842	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000074.1"; gene_id "AVESA.00400a.r2.1Ag0000074";
+chr1A	EVM	gene	7197759	7198466	.	-	.	AVESA.00400a.r2.1Ag0000075
+chr1A	EVM	transcript	7197759	7198466	.	-	.	AVESA.00400a.r2.1Ag0000075.1
+chr1A	EVM	stop_codon	7197759	7197761	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000075.1"; gene_id "AVESA.00400a.r2.1Ag0000075";
+chr1A	EVM	CDS	7197759	7198466	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000075.1"; gene_id "AVESA.00400a.r2.1Ag0000075";
+chr1A	EVM	exon	7197759	7198466	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000075.1"; gene_id "AVESA.00400a.r2.1Ag0000075";
+chr1A	EVM	start_codon	7198464	7198466	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000075.1"; gene_id "AVESA.00400a.r2.1Ag0000075";
+chr1A	EVM	gene	7198573	7201294	.	-	.	AVESA.00400a.r2.1Ag0000076
+chr1A	EVM	transcript	7198573	7201294	.	-	.	AVESA.00400a.r2.1Ag0000076.1
+chr1A	EVM	stop_codon	7198573	7198575	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000076.1"; gene_id "AVESA.00400a.r2.1Ag0000076";
+chr1A	EVM	CDS	7198573	7198929	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000076.1"; gene_id "AVESA.00400a.r2.1Ag0000076";
+chr1A	EVM	exon	7198573	7198929	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000076.1"; gene_id "AVESA.00400a.r2.1Ag0000076";
+chr1A	EVM	intron	7198930	7201258	-	.	transcript_id "AVESA.00400a.r2.1Ag0000076.1"; gene_id "AVESA.00400a.r2.1Ag0000076";
+chr1A	EVM	CDS	7201259	7201294	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000076.1"; gene_id "AVESA.00400a.r2.1Ag0000076";
+chr1A	EVM	exon	7201259	7201294	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000076.1"; gene_id "AVESA.00400a.r2.1Ag0000076";
+chr1A	EVM	start_codon	7201292	7201294	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000076.1"; gene_id "AVESA.00400a.r2.1Ag0000076";
+chr1A	EVM	gene	7342994	7343458	.	-	.	AVESA.00400a.r2.1Ag0000077
+chr1A	EVM	transcript	7342994	7343458	.	-	.	AVESA.00400a.r2.1Ag0000077.1
+chr1A	EVM	stop_codon	7342994	7342996	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000077.1"; gene_id "AVESA.00400a.r2.1Ag0000077";
+chr1A	EVM	CDS	7342994	7343458	.	-	0	transcript_id "AVESA.00400a.r2.1Ag0000077.1"; gene_id "AVESA.00400a.r2.1Ag0000077";
+chr1A	EVM	exon	7342994	7343458	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000077.1"; gene_id "AVESA.00400a.r2.1Ag0000077";
+chr1A	EVM	start_codon	7343456	7343458	.	-	.	transcript_id "AVESA.00400a.r2.1Ag0000077.1"; gene_id "AVESA.00400a.r2.1Ag0000077";
+chr1A	EVM	gene	7383353	7386537	.	+	.	AVESA.00400a.r2.1Ag0000078
+chr1A	EVM	transcript	7383353	7386537	.	+	.	AVESA.00400a.r2.1Ag0000078.1
+chr1A	EVM	start_codon	7383353	7383355	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	CDS	7383353	7383994	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	exon	7383353	7383994	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	CDS	7384094	7384151	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	exon	7384094	7384151	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	intron	7383995	7384093	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	CDS	7384242	7384303	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	exon	7384242	7384303	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	intron	7384152	7384241	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	CDS	7384416	7384470	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	exon	7384416	7384470	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	intron	7384304	7384415	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	CDS	7384544	7384600	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	exon	7384544	7384600	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	intron	7384471	7384543	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	CDS	7384759	7384880	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	exon	7384759	7384880	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	intron	7384601	7384758	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	CDS	7385001	7385067	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	exon	7385001	7385067	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	intron	7384881	7385000	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	CDS	7386061	7386182	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	exon	7386061	7386182	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	intron	7385068	7386060	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	intron	7386183	7386267	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	CDS	7386268	7386537	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	exon	7386268	7386537	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	stop_codon	7386535	7386537	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000078.1"; gene_id "AVESA.00400a.r2.1Ag0000078";
+chr1A	EVM	gene	7541417	7555262	.	+	.	AVESA.00400a.r2.1Ag0000079
+chr1A	EVM	transcript	7541417	7555262	.	+	.	AVESA.00400a.r2.1Ag0000079.1
+chr1A	EVM	start_codon	7541417	7541419	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7541417	7541575	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7541417	7541575	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7542346	7542443	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7542346	7542443	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7541576	7542345	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7542514	7542638	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7542514	7542638	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7542444	7542513	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7543217	7543328	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7543217	7543328	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7542639	7543216	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7543693	7543873	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7543693	7543873	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7543329	7543692	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7544502	7544684	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7544502	7544684	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7543874	7544501	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7544891	7545073	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7544891	7545073	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7544685	7544890	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7546141	7546210	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7546141	7546210	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7545074	7546140	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7547637	7547755	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7547637	7547755	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7546211	7547636	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7547853	7548157	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7547853	7548157	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7547756	7547852	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7548326	7548422	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7548326	7548422	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7548158	7548325	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7548561	7548704	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7548561	7548704	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7548423	7548560	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7549221	7549307	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7549221	7549307	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7548705	7549220	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7549507	7549593	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7549507	7549593	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7549308	7549506	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7549685	7549825	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7549685	7549825	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7549594	7549684	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7549932	7550057	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7549932	7550057	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7549826	7549931	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7550323	7550421	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7550323	7550421	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7550058	7550322	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7551943	7552010	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7551943	7552010	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7550422	7551942	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7552380	7552446	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7552380	7552446	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7552011	7552379	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7552807	7553067	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7552807	7553067	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7552447	7552806	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7553618	7553698	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7553618	7553698	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7553068	7553617	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7554194	7554267	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7554194	7554267	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7553699	7554193	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7554827	7554898	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7554827	7554898	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7554268	7554826	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7554984	7555073	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7554984	7555073	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7554899	7554983	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	intron	7555074	7555195	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	CDS	7555196	7555262	.	+	1	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	exon	7555196	7555262	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	stop_codon	7555260	7555262	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000079.1"; gene_id "AVESA.00400a.r2.1Ag0000079";
+chr1A	EVM	gene	7625800	7628514	.	+	.	AVESA.00400a.r2.1Ag0000080
+chr1A	EVM	transcript	7625800	7628514	.	+	.	AVESA.00400a.r2.1Ag0000080.1
+chr1A	EVM	start_codon	7625800	7625802	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	CDS	7625800	7625814	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	exon	7625800	7625814	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	CDS	7626195	7626251	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	exon	7626195	7626251	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	intron	7625815	7626194	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	CDS	7626343	7626546	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	exon	7626343	7626546	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	intron	7626252	7626342	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	CDS	7626616	7626675	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	exon	7626616	7626675	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	intron	7626547	7626615	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	CDS	7627499	7627625	.	+	0	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	exon	7627499	7627625	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	intron	7626676	7627498	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	intron	7627626	7628416	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	CDS	7628417	7628514	.	+	2	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	exon	7628417	7628514	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";
+chr1A	EVM	stop_codon	7628512	7628514	.	+	.	transcript_id "AVESA.00400a.r2.1Ag0000080.1"; gene_id "AVESA.00400a.r2.1Ag0000080";

@@ -423,7 +423,7 @@ sub run_edgeR_sample_pair {
     close $ofh;
 
     ## Run R-script
-    my $cmd = "/public/share/acfaa2ssz7/miniconda3/envs/R/bin/R --vanilla -q < $Rscript_name";
+    my $cmd = "R --vanilla -q < $Rscript_name";
 
 
     eval {
@@ -512,7 +512,7 @@ sub run_DESeq2_sample_pair {
     close $ofh;
     
     ## Run R-script
-    my $cmd = "/public/share/acfaa2ssz7/miniconda3/envs/R/bin/R --vanilla -q < $Rscript_name";
+    my $cmd = "R --vanilla -q < $Rscript_name";
     &process_cmd($cmd);
     
     return;
@@ -586,7 +586,7 @@ sub run_limma_voom_sample_pair {
     close $ofh;
 
     ## Run R-script
-    my $cmd = "/public/share/acfaa2ssz7/miniconda3/envs/R/bin/R --vanilla -q < $Rscript_name";
+    my $cmd = "R --vanilla -q < $Rscript_name";
 
     eval {
         &process_cmd($cmd);
@@ -682,7 +682,7 @@ sub run_ROTS_sample_pair {
     close $ofh;
 
     ## Run R-script
-    my $cmd = "/public/share/acfaa2ssz7/miniconda3/envs/R/bin/R --vanilla -q < $Rscript_name";
+    my $cmd = "R --vanilla -q < $Rscript_name";
 
 
     eval {

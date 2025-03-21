@@ -48,9 +48,9 @@ library(AnnotationForge)
 # genus = "avena"
 # species = "sativa"
 #gene2go <- unique(gene2go)
-#gene2go<-gene2go[!duplicated(gene2go),]
-#gene2ko<-gene2ko[!duplicated(gene2ko),]
-#gene2pathway<-gene2pathway[!duplicated(gene2pathway),]
+gene2go<-gene2go[!duplicated(gene2go),]
+gene2ko<-gene2ko[!duplicated(gene2ko),]
+gene2pathway<-gene2pathway[!duplicated(gene2pathway),]
 gene2gos <- dplyr::distinct(gene2go)
 gene2kos<- dplyr::distinct(gene2ko)
 # write.table(gene2gos,file = "gene2go.txt",sep = "\t",quote = F,row.names = F)
@@ -60,7 +60,7 @@ makeOrgPackage(gene_info=avena_gene,
                maintainer = "yukaiquan <1962568272@qq.com>",
                author = "yukaiquan",
                pathway=gene2pathway,
-               version="1.0",
+               version="2.0",
                outputDir = '.',
                tax_id=tax_id,
                genus=genus,

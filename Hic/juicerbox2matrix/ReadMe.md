@@ -2,6 +2,8 @@
 
 It is very fast to convert juicerbox output to bin matrix for plotting.
 
+2025.3.21: juicerbox2matrix is fix BUG of threads pools (you can use 64(n) CPU)
+
 ## Need CPU and memory
 
 for example: **120GB** nodup.txt.gz file need 150GB memory and cpu 2-64 core

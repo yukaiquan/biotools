@@ -6,7 +6,7 @@ import time
 from tqdm import tqdm
 from concurrent.futures import ProcessPoolExecutor
 
-BCFTOOLS_PATH = '/usr/local/bin/bcftools'
+BCFTOOLS_PATH = 'bcftools'
 
 
 def bcftools_index(vcf_file: str) -> bool:
@@ -18,13 +18,18 @@ def bcftools_index(vcf_file: str) -> bool:
     if not file_exists(vcf_file):
         print('vcf file not exists')
         return False
-    cmd = '{BCFTOOLS_PATH} index -f -t {vcf_file}'.format(
+    cmd = '{BCFTOOLS_PATH} index -t {vcf_file}'.format(
         BCFTOOLS_PATH=BCFTOOLS_PATH, vcf_file=vcf_file)
     pop = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE)
-    pop.wait()
+    stdout, stderr = pop.communicate()  # 等待命令执行完成并捕获输出
+
     if pop.returncode != 0:
-        print(pop.stderr.read().decode())
+        print(f'Error: {stderr.decode().strip()}')  # 打印错误信息
         return False
+
+    # 检查输出是否包含错误信息
+    if stdout:
+        print(f'Output: {stdout.decode().strip()}')
     return True
 
 
@@ -51,11 +56,20 @@ def gatk_CombineGVCFs(ref_file: str, gvcf_list: list, out_file: str) -> bool:
     if file_exists(out_file):
         print('out file exists')
         return False
-    cmd = 'gatk CombineGVCFs -OVI False -R {ref_file} -O {out_file} -V {gvcf_list}'
+    cmd = 'gatk CombineGVCFs -OVI False -R {ref_file} -O {out_file} -V {gvcf_list} -V {gvcf_index}'
     cmd = cmd.format(ref_file=ref_file, out_file=out_file,
-                     gvcf_list=' -V '.join(gvcf_list))
+                     gvcf_list=' -V '.join(gvcf_list), gvcf_index=' -V '.join([f'{gvcf}.csi' for gvcf in gvcf_list]))
+    print(cmd)
     pop = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE)
-    pop.wait()
+    stdout, stderr = pop.communicate()  # 等待命令执行完成并捕获输出
+
+    if pop.returncode != 0:
+        print(f'Error: {stderr.decode().strip()}')  # 打印错误信息
+        return False
+
+    # 检查输出是否包含错误信息
+    if stdout:
+        print(f'Output: {stdout.decode().strip()}')
     return True
 
 
@@ -75,7 +89,15 @@ def gatk_GenotypeGVCFs(ref_file: str, gvcf_file: str, out_file: str) -> bool:
     cmd = cmd.format(ref_file=ref_file, out_file=out_file,
                      gvcf_file=gvcf_file)
     pop = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE)
-    pop.wait()
+    stdout, stderr = pop.communicate()  # 等待命令执行完成并捕获输出
+
+    if pop.returncode != 0:
+        print(f'Error: {stderr.decode().strip()}')  # 打印错误信息
+        return False
+
+    # 检查输出是否包含错误信息
+    if stdout:
+        print(f'Output: {stdout.decode().strip()}')
     return True
 
 
@@ -103,10 +125,13 @@ def main():
         sys.exit(1)
     with open(gvcf_list_file, 'r') as f:
         for line in f:
+            print(line.strip())
             gvcf_list.append(line.strip())
     # 判断索引文件是否存在
     with ProcessPoolExecutor(max_workers=thread_num) as executor:
         for gvcf_file in gvcf_list:
+            if file_exists(gvcf_file + ".csi"):
+                continue
             executor.submit(bcftools_index, gvcf_file)
     tqdm.write('index file check done')
     # 合并gvcf文件
@@ -118,15 +143,15 @@ def main():
         print('index file create failed')
         sys.exit(1)
     tqdm.write('index file create done')
-    # 生成vcf文件
-    if not gatk_GenotypeGVCFs(ref_file, out_file + '.g.vcf.gz', out_file + '.vcf.gz'):
-        print('gvcf merge failed')
-        sys.exit(1)
-    tqdm.write('vcf file create done')
-    if not bcftools_index(out_file + '.vcf.gz'):
-        print('index file create failed')
-        sys.exit(1)
-    tqdm.write('index file create done')
+    # # 生成vcf文件
+    # if not gatk_GenotypeGVCFs(ref_file, out_file + '.g.vcf.gz', out_file + '.vcf.gz'):
+    #     print('gvcf merge failed')
+    #     sys.exit(1)
+    # tqdm.write('vcf file create done')
+    # if not bcftools_index(out_file + '.vcf.gz'):
+    #     print('index file create failed')
+    #     sys.exit(1)
+    # tqdm.write('index file create done')
     end_time = time.time()
     print('time used: {}s'.format(end_time - start_time))
 

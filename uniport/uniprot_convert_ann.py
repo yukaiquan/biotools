@@ -31,6 +31,7 @@ def read_in_chunks(filePath: str, chunk_size: int = 1024*1024*1000):
 
 # uni_list = []
 
+out_put_list = []
 
 uniprot_id_list: list = []
 for chunk in read_in_chunks(input_file):
@@ -41,14 +42,18 @@ for chunk in read_in_chunks(input_file):
             # print(line)
             count = 0
             if uniprot_id_list != []:
-                with open(output_file, 'a+') as f:
+                # with open(output_file, 'a+') as f:
                     # print(uniprot_id_list)
                     if len(uniprot_id_list) > 1:
                         for uni in uniprot_id_list:
-                            f.write(uni + "\t" + id + "\t" + annotation + "\n")
+                            # f.write(uni + "\t" + id + "\t" + annotation + "\n")
+                            out_put_list.append(uni + "\t" + id + "\t" + annotation + "\n")
                     else:
-                        f.write(uniprot_id_list[0] + "\t" +
-                                id + "\t" + annotation + "\n")
+                        # f.write(uniprot_id_list[0] + "\t" +
+                        #         id + "\t" + annotation + "\n")
+                        out_put_list.append(uniprot_id_list[0] + "\t" +
+                                            id + "\t" + annotation + "\n"
+                        )
             if len(line.strip().split('   ')) > 1:
                 uniprot_id_list = line.strip().split(
                     '   ')[1].replace(';', '').split()
@@ -76,3 +81,7 @@ for chunk in read_in_chunks(input_file):
             # annotation += l.split('')[1].strip() + "\n"
         else:
             continue
+
+with open(output_file, 'w') as f:
+    for out in out_put_list:
+        f.write(out)

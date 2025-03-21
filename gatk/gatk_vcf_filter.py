@@ -8,7 +8,7 @@ import time
 # 多线程
 from concurrent.futures import ProcessPoolExecutor
 
-BCFTOOLS_PATH = 'bcftools'
+BCFTOOLS_PATH = '/public/home/pengyuanying/.conda/envs/gatk42/bin/bcftools'
 
 
 def file_exists(file_name:str) -> bool:
@@ -37,6 +37,20 @@ def bcftools_index(vcf_file) -> bool:
         return False
     return True
 
+def bcftools_index_csi(vcf_file) -> bool:
+    """
+    bcftools must be installed 1.3.1
+    :param vcf_file:
+    :return:
+    """
+    cmd = '{BCFTOOLS_PATH} index -c {vcf_file}'.format(
+        BCFTOOLS_PATH=BCFTOOLS_PATH, vcf_file=vcf_file)
+    pop = Popen(cmd, shell=True, stdout=PIPE, stderr=PIPE)
+    pop.wait()
+    if pop.returncode != 0:
+        print(pop.stderr.read().decode())
+        return False
+    return True
 
 def gatk_SelectVariants(vcf_file, selet_type, out_file) -> bool:
     '''
@@ -147,10 +161,10 @@ def main():
                 executor.submit(gatk_SelectVariants, vcf_file, snp, file)
     # 创建两个索引
     print('start bcftools index')
-    if not file_exists(out_file + '.snp.vcf.gz.tbi'):
+    if not file_exists(out_file + '.snp.vcf.gz.tbi') or not file_exists(out_file + '.snp.vcf.gz.csi'):
         with ProcessPoolExecutor(max_workers=2) as executor:
             for snp, file in file_list:
-                if not file_exists(file + '.tbi'):
+                if not file_exists(file + '.tbi') or not file_exists(file + '.csi'):
                     executor.submit(bcftools_index, file)
     # 过滤snp
     print('start gatk VariantFiltration')
@@ -162,7 +176,7 @@ def main():
     print('start bcftools index')
     with ProcessPoolExecutor(max_workers=2) as executor:
         for infile, outfile, snp in filter_list:
-            if not file_exists(outfile + '.tbi'):
+            if not file_exists(outfile + '.tbi') or not file_exists(outfile + '.csi'):
                 executor.submit(bcftools_index, outfile)
     # 导出表格
     print('start gatk VariantsToTable')
