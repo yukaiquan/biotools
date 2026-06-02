@@ -1,6 +1,6 @@
 #!/bin/bash
 
-bbduk='/pub/soft/bbmap/bbduk.sh'
+bbduk='/publicssd/share/h13713/soft/bbmap/snp_bbduk.zsh'
 
 ref=$1
 shift
