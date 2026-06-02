@@ -37,7 +37,7 @@ done | sort | uniq > sbatch.tsv
 #   -n: number of CPUs per task (4)
 #   -e: environment setup (bwa)
 python /publicssd/share/h13713/soft/sbatch_script.py -i sbatch.tsv -p com300 -m 20G -N 1 -n 4 -e bwa
-
+# https://github.com/yukaiquan/biotools/blob/main/slurm/sbatch_script.py
 
 # ----------------------------------------------------------------------------
 # Step 2: Extract k-mer count tables from original SNP matrix for 9000 GBS samples
