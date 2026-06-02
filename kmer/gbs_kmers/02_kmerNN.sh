@@ -135,3 +135,4 @@ awk '{print $2}' all_samples.tsv | grep -v "accession" > GBS666_samples.txt
 Rscript kmerNN.r -i samples.txt -d Kmer.RData -o gbs666_mixup_NN.tsv -t 64
 # ls xa* | while read id; do echo -e "$id\tRscript kmerNN.r -i ${id} -d Kmer.RData -o ${id}_mixup_NN.tsv -t 120"; done > sbatch.tsv
 # python /public/share/h13713/soft/sbatch_script.py -i sbatch.tsv -p com300 -m 500G -N 1 -n 120 -e python2.7
+# https://github.com/yukaiquan/biotools/blob/main/slurm/sbatch_script.py
