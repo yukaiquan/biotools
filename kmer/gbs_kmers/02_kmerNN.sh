@@ -124,12 +124,12 @@ seq_NN(gt=gbs666, sample.id='sanfensan_gbs666', gbs_mat=gbs9000) -> nn  # this c
 nn[n > 1000][!duplicated(gbs666_sample)] -> y
 
 # The following steps are time-consuming and can be split into HPC for acceleration
-save(gbs666, gbs9000, file = "Kmer.RData")
+save(gbs666, gbs9000, seq_NN, file = "Kmer.RData")
 
 #################################################shell#################################################
 
 # run in linux 
-awk '{print $2}' all_samples.tsv | grep -v "accession" > GBS666_samples.txt
+# awk '{print $2}' all_samples.tsv | grep -v "accession" > GBS666_samples.txt
 # Identify the genetically closest genotype for many mix-up samples
 
 Rscript kmerNN.r -i samples.txt -d Kmer.RData -o gbs666_mixup_NN.tsv -t 64
