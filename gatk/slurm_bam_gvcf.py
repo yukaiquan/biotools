@@ -15,9 +15,6 @@ import subprocess
 # GATK_SIF = 'singularity exec /work/home/acfaa2ssz7/soft/gatk_461.sif gatk'
 GATK_SIF = 'gatk'
 
-CHR_LIST = ['chr1A', 'chr2A', 'chr3A', 'chr4A', 'chr5A', 'chr6A', 'chr7A',
-                  'chr1C', 'chr2C', 'chr3C', 'chr4C', 'chr5C', 'chr6C', 'chr7C',
-                  'chr1D', 'chr2D', 'chr3D', 'chr4D', 'chr5D', 'chr6D', 'chr7D', 'chrUn']
 # SAMTOOLS = '/public/home/pengyuanying/.conda/envs/bwa/bin/samtools'
 SAMTOOLS = '/work/home/acfaa2ssz7/soft/samtools-1.10/samtools'
 BCFTOOLS = '/work/share/acfaa2ssz7/miniconda3/envs/bwa/bin/bcftools'
@@ -130,7 +127,7 @@ def generate_sbatch_file(patient_id, job_name, job_out, job_err, job_mem, job_N,
 
 module purge
 
-source /public/home/acfaa2ssz7/.bashrc
+source ~/.bashrc
 conda activate gatk4
 
 {job_script}
@@ -146,7 +143,7 @@ wait
 
 module purge
 
-source /public/home/acfaa2ssz7/.bashrc
+source ~/.bashrc
 conda activate gatk4
 
 {job_script}
@@ -160,7 +157,7 @@ wait
             f.write(sbatch_file_mem)
     return f"{folder}/{job_name}.sbatch"
 
-def genetion_gvcf(ref: str, input_bam: str, output_gvcf: str, chrom: str, process:str,job:str,node:str,threads:int) -> str:
+def genetion_gvcf(ref: str, input_bam: str, output_gvcf: str, chrom: str, process:str,job:str,node:str,threads:int, verbose:bool=True) -> str:
     out_put_name = output_gvcf + '.' + chrom + '.g.vcf.gz'
     # 判断文件是否已经存在
     if os.path.exists(out_put_name):
@@ -171,34 +168,40 @@ def genetion_gvcf(ref: str, input_bam: str, output_gvcf: str, chrom: str, proces
         # else:
         #     cmd = f'srun -J {job}_{chrom} -p {process} -N {str(node)} -n {str(threads)} --mem=2000MB -o std.out.%j -e std.err.%j {GATK_SIF} --java-options -Xmx6G HaplotypeCaller -I {input_bam} -O {out_put_name} -R {ref} --emit-ref-confidence GVCF -OVI False -L {chrom} &'
         cmd = f'{GATK_SIF} --java-options -Xmx6G HaplotypeCaller -I {input_bam} -O {out_put_name} -R {ref} --emit-ref-confidence GVCF -OVI False -L {chrom}'
-        print(cmd)
+        if verbose:
+            print(cmd)
         return cmd
 
 
-def gvcf_cmd_list(ref, input_bam,folder, output_gvcf, process:str,job:str,node:str,threads:int,mem:str) -> dict:
+def gvcf_cmd_list(ref, input_bam,folder, output_gvcf, process:str,job:str,node:str,threads:int,mem:str, chr_list:list, print_commands:bool=False) -> dict:
     # sbatch_file_list = []
     sbatch_file_dict = {}
-    for chrom in CHR_LIST:
-        cmd = genetion_gvcf(ref, input_bam, output_gvcf, chrom, process,job,node,threads)
+    for chrom in chr_list:
+        # 在print_commands模式下不打印命令（避免重复）
+        cmd = genetion_gvcf(ref, input_bam, output_gvcf, chrom, process,job,node,threads, verbose=not print_commands)
         gvcf_file = output_gvcf + '.' + chrom + '.g.vcf.gz'
         if cmd == "NA":
             continue
         else:
-            job_name = job + '_' + chrom
-            job_out = f'{output_gvcf}_{job_name}.out.%j'
-            job_err = f'{output_gvcf}_{job_name}.err.%j'
-            job_mem = mem
-            job_N = node
-            job_cpu = threads
-            job_script = cmd
-            # 生成sbatch文件
-            sbatch_file = generate_sbatch_file(process, job_name, job_out, job_err, job_mem, job_N, job_cpu, job_script,folder)
-            # sbatch_file_list.append(sbatch_file)
-            if gvcf_file not in sbatch_file_dict:
-                sbatch_file_dict[gvcf_file] = sbatch_file
+            # 在print_commands模式下，直接存储命令
+            if print_commands:
+                sbatch_file_dict[gvcf_file] = cmd
             else:
-                print(f'Error: {gvcf_file} already exists in {sbatch_file_dict[gvcf_file]}')
-                sys.exit(1)
+                job_name = job + '_' + chrom
+                job_out = f'{output_gvcf}_{job_name}.out.%j'
+                job_err = f'{output_gvcf}_{job_name}.err.%j'
+                job_mem = mem
+                job_N = node
+                job_cpu = threads
+                job_script = cmd
+                # 生成sbatch文件
+                sbatch_file = generate_sbatch_file(process, job_name, job_out, job_err, job_mem, job_N, job_cpu, job_script,folder)
+                # sbatch_file_list.append(sbatch_file)
+                if gvcf_file not in sbatch_file_dict:
+                    sbatch_file_dict[gvcf_file] = sbatch_file
+                else:
+                    print(f'Error: {gvcf_file} already exists in {sbatch_file_dict[gvcf_file]}', file=sys.stderr)
+                    sys.exit(1)
     return sbatch_file_dict
 
 
@@ -273,18 +276,20 @@ def read_fai(fai_file: str) -> list:
         with open(fai_file, 'r') as f:
             for line in f:
                 line_list = line.strip().split()
+                if len(line_list) < 2:
+                    continue
                 chr_name = line_list[0]
-                chr_length = line_list[1]
+                chr_length = int(line_list[1])
                 if chr_name in chr_length_dict:
-                    print(f'Error: {chr_name} exists')
+                    print(f'Error: {chr_name} exists', file=sys.stderr)
                     sys.exit(1)
                 else:
                     chr_length_dict[chr_name] = chr_length
     else:
-        print(f'Error: {fai_file} not exists')
+        print(f'Error: {fai_file} not exists', file=sys.stderr)
         sys.exit(1)
-    # 根据染色体长度排序
-    chr_tup = sorted(chr_length_dict.items(), key=lambda x: int(x[1]), reverse=True)
+    # 根据染色体长度排序（从长到短）
+    chr_tup = sorted(chr_length_dict.items(), key=lambda x: x[1], reverse=True)
     chr_list = [i[0] for i in chr_tup]
     return chr_list
 
@@ -310,6 +315,7 @@ def main():
     parser.add_argument('-n','--node', type=int,required=True, help='node numbers')
     parser.add_argument('-d', '--debug', type=bool, default=False, help='debug')
     parser.add_argument('-o', '--output', type=str,required=True, help='output vcf name')
+    parser.add_argument('--print-commands', action='store_true', help='Print all commands (one per line) instead of submitting jobs')
     args = parser.parse_args()
     input_bam = args.input
     reference = args.reference
@@ -320,33 +326,53 @@ def main():
     node = args.node
     mem = args.mem
     debug = args.debug
+    print_commands = args.print_commands
+    
     # 判断文件是否存在
     if file_exists(input_bam):
         pass
     else:
-        print(f'Error: {input_bam} not exists')
+        print(f'Error: {input_bam} not exists', file=sys.stderr)
         sys.exit(1)
     # 判断文件是否存在
     if file_exists(reference):
         pass
     else:
-        print(f'Error: {reference} not exists')
+        print(f'Error: {reference} not exists', file=sys.stderr)
         sys.exit(1)
+    
+    # 从reference的fai文件读取染色体列表
+    fai_file = reference + '.fai'
+    if not file_exists(fai_file):
+        print(f'Error: {fai_file} not exists', file=sys.stderr)
+        sys.exit(1)
+    chr_list = read_fai(fai_file)
+    print(f'Read {len(chr_list)} chromosomes from {fai_file}')
+    
     folder = os.path.dirname(input_bam)
     output_path_name = os.path.join(folder, output_name)
     gvcf_chr = {}
     output_name_list = [output_path_name + '.' + chr +
-                            '.g.vcf.gz' for chr in CHR_LIST]
+                            '.g.vcf.gz' for chr in chr_list]
     gvcf_chr[output_path_name] = output_name_list
     # 总的gvcf文件
     gvcf_file = output_path_name + '.g.vcf.gz'
     # 判断是否存在如果存在则退出
     if file_exists(gvcf_file):
-        print(f'Error: {gvcf_file} exists')
+        print(f'Error: {gvcf_file} exists', file=sys.stderr)
         sys.exit(1)
-    # 判断文件是否存在
-    sbath_file_dict = gvcf_cmd_list(reference, input_bam,folder, output_path_name,process,job,node,thread,mem)
-    # 直接运行
+    
+    # 生成命令列表
+    sbath_file_dict = gvcf_cmd_list(reference, input_bam,folder, output_path_name,process,job,node,thread,mem, chr_list, print_commands)
+    
+    # 打印命令模式
+    if print_commands:
+        for gvcf_name in sbath_file_dict.keys():
+            cmd = sbath_file_dict[gvcf_name]
+            print(cmd)
+        return
+    
+    # 直接运行提交slurm作业
     for gvcf_name in sbath_file_dict.keys():
         sbatch_file = sbath_file_dict[gvcf_name]
         # 判断结果文件是否存在，如果存在则不
